@@ -205,11 +205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 1.Swagger\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+      "projectUniqueName": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
       "projectName": "Simple_Asp.Net_Core",
-      "projectPath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 1.Swagger\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+      "projectPath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 1.Swagger\\Simple_Asp.Net_Core\\obj\\",
+      "outputPath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

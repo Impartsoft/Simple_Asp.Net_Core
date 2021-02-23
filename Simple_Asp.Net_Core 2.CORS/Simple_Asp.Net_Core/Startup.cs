@@ -17,6 +17,7 @@ namespace Simple_Asp.Net_Core
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCORS();
             services.AddMvc();
             services.AddSwagger();
         }
@@ -34,14 +35,10 @@ namespace Simple_Asp.Net_Core
                 });
             }
 
+            app.UseCors("CorsTest");
+
             app.UseRouting();
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            app.UseEndpoints(endpoints => endpoints.MapDefaultControllerRoute());
         }
     }
 }
