@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\Simple_Asp.Net_Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+  </ItemGroup>
+
+</Project>

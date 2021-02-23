@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "U2dH3KnMd8aqmYzqPMwLQSVrsbcY+LHhxjzcZDjqk2wB8z8UCJmCKAMKwUXS665+yHuiwYGyX0rfxVDYf81oHA==",
+  "success": true,
+  "projectFilePath": "E:\\WorkSpace\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core 3.AutoMapper Restful\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.7\\swashbuckle.aspnetcore.6.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.7\\swashbuckle.aspnetcore.swagger.6.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.0.7\\swashbuckle.aspnetcore.swaggergen.6.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.0.7\\swashbuckle.aspnetcore.swaggerui.6.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
