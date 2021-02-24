@@ -17,7 +17,7 @@ namespace Simple_Asp.Net_Core
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<CommanderContext>(options =>
-                options.UseNpgsql("Host=localhost;Database=Simple;Username=postgres;Password=123456"));
+                options.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=123456"));
 
             services.AddCORS();
             services.AddMvc();
