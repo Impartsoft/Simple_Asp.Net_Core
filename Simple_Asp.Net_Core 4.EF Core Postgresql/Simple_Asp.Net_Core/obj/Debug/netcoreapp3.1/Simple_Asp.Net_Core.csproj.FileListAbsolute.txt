@@ -1,0 +1,195 @@
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.exe
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.deps.json
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.json
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.dev.json
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csprojAssemblyReference.cache
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfoInputs.cache
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.RazorTargetAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.Manifest.cache
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.xml
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.genruntimeconfig.cache
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.xml
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CoreCompileInputs.cache
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CopyComplete
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.exe
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.deps.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.dev.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.xml
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csprojAssemblyReference.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfoInputs.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CoreCompileInputs.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.RazorTargetAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CopyComplete
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.Manifest.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.xml
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 1.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.genruntimeconfig.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.exe
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.deps.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.dev.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.xml
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csprojAssemblyReference.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfoInputs.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfo.cs
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CoreCompileInputs.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cs
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.RazorTargetAssemblyInfo.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CopyComplete
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.Manifest.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.xml
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 2.CORS\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.genruntimeconfig.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.exe
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.deps.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.dev.json
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.xml
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csprojAssemblyReference.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfoInputs.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfo.cs
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.RazorTargetAssemblyInfo.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CopyComplete
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.Manifest.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.xml
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.genruntimeconfig.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\AutoMapper.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CoreCompileInputs.cache
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cs
+E:\WorkSpace\Simple_Asp.Net_Core\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.exe
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.deps.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.dev.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.xml
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csprojAssemblyReference.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfoInputs.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.RazorTargetAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CopyComplete
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.Manifest.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.xml
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.genruntimeconfig.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CoreCompileInputs.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 3.AutoMapper Restful\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.exe
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.deps.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.runtimeconfig.dev.json
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Simple_Asp.Net_Core.xml
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csprojAssemblyReference.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfoInputs.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.AssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.RazorTargetAssemblyInfo.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CopyComplete
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.Manifest.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\staticwebassets\Simple_Asp.Net_Core.StaticWebAssets.xml
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.pdb
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.genruntimeconfig.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.csproj.CoreCompileInputs.cache
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cs
+D:\workspace\Simple_Asp.Net_Core1\Simple_Asp.Net_Core 4.EF Core Postgresql\Simple_Asp.Net_Core\obj\Debug\netcoreapp3.1\Simple_Asp.Net_Core.MvcApplicationPartsAssemblyInfo.cache
