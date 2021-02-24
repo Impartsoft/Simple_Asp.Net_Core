@@ -205,11 +205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+      "projectUniqueName": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
       "projectName": "Simple_Asp.Net_Core",
-      "projectPath": "E:\\WorkSpace\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+      "projectPath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\obj\\",
+      "outputPath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 2.CORS\\Simple_Asp.Net_Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -261,7 +261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
