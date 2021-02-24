@@ -1,10 +1,6 @@
 ﻿using AutoMapper;
 using Simple_Asp.Net_Core.Dtos;
 using Simple_Asp.Net_Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Simple_Asp.Net_Core.Profiles
 {
@@ -14,6 +10,9 @@ namespace Simple_Asp.Net_Core.Profiles
         {
             //Source -> Target
             CreateMap<Command, CommandReadDto>();
+            CreateMap<CommandCreateDto, Command>();
+            CreateMap<CommandUpdateDto, Command>();
+            CreateMap<Command, CommandUpdateDto>();
         }
     }
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Simple_Asp.Net_Core.Dtos
+﻿namespace Simple_Asp.Net_Core.Dtos
 {
     public class CommandReadDto
     {
