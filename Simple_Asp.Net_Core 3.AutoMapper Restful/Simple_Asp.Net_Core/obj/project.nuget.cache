@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U2dH3KnMd8aqmYzqPMwLQSVrsbcY+LHhxjzcZDjqk2wB8z8UCJmCKAMKwUXS665+yHuiwYGyX0rfxVDYf81oHA==",
+  "dgSpecHash": "tKsopxvT5Tcfq5KzTUGdtphHB9kbr77+nVVyLCUpzuXFND20V1lCP+iOkcqdA0juAolw/cS+EU83IS9K7wAPBg==",
   "success": true,
-  "projectFilePath": "E:\\WorkSpace\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core 3.AutoMapper Restful\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+  "projectFilePath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 3.AutoMapper Restful\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
