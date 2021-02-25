@@ -4,5 +4,20 @@
         <name>Simple_Asp.Net_Core</name>
     </assembly>
     <members>
+        <member name="P:Simple_Asp.Net_Core.Dtos.UserProviderDto.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Simple_Asp.Net_Core.Dtos.UserProviderDto.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Simple_Asp.Net_Core.Dtos.UserProviderDto.Mail">
+            <summary>
+            电子邮箱
+            </summary>
+        </member>
     </members>
 </doc>
