@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XTAnR/jJ97qGdqW6pojuRr7sMWGo+/P+AehT7Fed1vjmg4O2+BmvahWQAkHbLtwwRHSxI8LvZTpJPc3BXe0UZQ==",
+  "dgSpecHash": "+hVmTrKAj4ruI4UJYZxWue0Cb4s4mx5tavI79xb8eF4qXnfdAMb9fNjGp5uaUcINkqV3Q/a8q/toSorXou0Lyg==",
   "success": true,
-  "projectFilePath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 5.JWT\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+  "projectFilePath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 5.SDK Update & JWT\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
