@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Simple_Asp.Net_Core</name>
+    </assembly>
+    <members>
+        <member name="P:Simple_Asp.Net_Core.Dtos.UserProviderDto.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Simple_Asp.Net_Core.Dtos.UserProviderDto.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Simple_Asp.Net_Core.Dtos.UserProviderDto.Mail">
+            <summary>
+            电子邮箱
+            </summary>
+        </member>
+        <member name="M:Simple_Asp.Net_Core.ServiceProvider.ExceptionHandler.SetResponse(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            解决异常消息返回跨域问题
+            </summary>
+        </member>
+        <member name="M:Simple_Asp.Net_Core.ServiceProvider.ExceptionHandler.GetApiResponse(System.String)">
+            <summary>
+            统一格式响应类
+            </summary>
+        </member>
+    </members>
+</doc>

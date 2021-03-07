@@ -1,0 +1,22 @@
+
+<!DOCTYPE html><html>
+<head> 
+<meta charset="utf-8"> 
+<title> CRONTest </title>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript" >
+$.ajax({
+  type: "GET",
+  url: "https://localhost:44372/api/Values",
+  success: function(msg){
+     alert( "CRONTest Success: " + msg );
+   }
+});
+
+</script>
+</head>
+<body>
+<p>CRONTest</p>
+</body>
+</html>

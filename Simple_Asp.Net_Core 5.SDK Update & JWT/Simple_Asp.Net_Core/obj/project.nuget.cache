@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+hVmTrKAj4ruI4UJYZxWue0Cb4s4mx5tavI79xb8eF4qXnfdAMb9fNjGp5uaUcINkqV3Q/a8q/toSorXou0Lyg==",
+  "dgSpecHash": "vUnLz5ljfdUy+JLYe0f/JOt0u0cdx1UnFWte8XRSHKJhi6SJlEvo7pGi84L/ML3yHRoBjR4Rz8Ns4irJNZLJxA==",
   "success": true,
-  "projectFilePath": "D:\\workspace\\Simple_Asp.Net_Core1\\Simple_Asp.Net_Core 5.SDK Update & JWT\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
+  "projectFilePath": "E:\\WorkSpace\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core 5.SDK Update & JWT\\Simple_Asp.Net_Core\\Simple_Asp.Net_Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -46,7 +46,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
