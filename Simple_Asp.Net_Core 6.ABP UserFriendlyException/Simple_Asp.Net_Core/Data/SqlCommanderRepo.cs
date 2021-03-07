@@ -17,9 +17,6 @@ namespace Simple_Asp.Net_Core.Data
 
         public void CreateCommand(Command cmd)
         {
-            if (string.IsNullOrWhiteSpace(cmd.HowTo))
-                throw new UserFriendlyException("HowTo不能为空！");
-
             if (cmd == null)
             {
                 throw new ArgumentNullException(nameof(cmd));
@@ -44,7 +41,10 @@ namespace Simple_Asp.Net_Core.Data
 
         public Command GetCommandById(int id)
         {
-            return _context.Commands.FirstOrDefault(p => p.Id == id);
+            if (id == 0)
+                throw new UserFriendlyException("id不能为0！");
+
+            return _context.Commands.First(p => p.Id == id);
         }
 
         public bool SaveChanges()
