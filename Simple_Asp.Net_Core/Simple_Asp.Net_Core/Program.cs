@@ -1,20 +1,41 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json.Serialization;
+using Simple_Asp.Net_Core.Data;
+using Simple_Asp.Net_Core.ServiceProvider;
 
-namespace Simple_Asp.Net_Core
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+builder.Services.AddJWT();
+builder.Services.AddDbContext<CommanderContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
+
+builder.Services.AddCORS();
+builder.Services.AddMvc();
+builder.Services.AddSwagger();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+
+builder.Services.AddControllers().AddNewtonsoftJson(s =>
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
+    s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+});
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-    }
+var app = builder.Build();
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiHelp V1");
+    });
 }
+app.UseExceptionHandler(builder => builder.Run(async context => await ExceptionHandler.ErrorEvent(context)));
+app.UseCors("CorsTest");
+app.UseAuthentication();
+app.UseRouting();
+app.UseAuthorization();
+app.UseEndpoints(endpoints => endpoints.MapDefaultControllerRoute());
+app.Run();

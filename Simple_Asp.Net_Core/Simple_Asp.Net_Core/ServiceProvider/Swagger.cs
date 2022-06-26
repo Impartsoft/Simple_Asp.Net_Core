@@ -11,19 +11,19 @@ namespace Simple_Asp.Net_Core.ServiceProvider
         {
             services.AddSwaggerGen(option =>
             {
-                option.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Version = "0.0.1",
-                    Title = "Simple API",
-                    Description = "框架说明文档",
-                    TermsOfService = null,
-                    Contact = new OpenApiContact { Name = "Simple", Email = string.Empty, Url = null }
-                });
+                //option.SwaggerDoc("v1", new OpenApiInfo
+                //{
+                //    Version = "0.0.1",
+                //    Title = "Simple API",
+                //    Description = "框架说明文档",
+                //    TermsOfService = null,
+                //    Contact = new OpenApiContact { Name = "Simple", Email = string.Empty, Url = null }
+                //});
 
-                // 读取xml信息
-                var basePath = AppContext.BaseDirectory;
-                var xmlPath = Path.Combine(basePath, "Simple_Asp.Net_Core.xml");
-                option.IncludeXmlComments(xmlPath, true);
+                //// 读取xml信息
+                //var basePath = AppContext.BaseDirectory;
+                //var xmlPath = Path.Combine(basePath, "Simple_Asp.Net_Core.xml");
+                //option.IncludeXmlComments(xmlPath, true);
 
                 // Add security definitions
                 option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
