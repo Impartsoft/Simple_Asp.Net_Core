@@ -95,3 +95,4 @@ D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\net6.0\Simple_Asp.Net_Core.pdb
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\net6.0\Simple_Asp.Net_Core.genruntimeconfig.cache
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Debug\net6.0\ref\Simple_Asp.Net_Core.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Debug\net6.0\FluentFTP.dll

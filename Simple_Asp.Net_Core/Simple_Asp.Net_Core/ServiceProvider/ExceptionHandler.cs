@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using Simple_Asp.Net_Core.Dtos;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,17 +47,9 @@ namespace Simple_Asp.Net_Core.ServiceProvider
         /// <summary>
         /// 响应Response
         /// </summary>
-        private static ErrorResponse GetApiResponse(string message)
+        private static SysMsg GetApiResponse(string message)
         {
-            return new ErrorResponse() { success = false, message = message };
-        }
-
-        private class ErrorResponse
-        {
-            public bool success { get; set; }
-            public bool Success { get { return success; } }
-            public string message { get; set; }
-            public string Message { get { return message; } }
+            return SysMsg.Fail(message); 
         }
     }
 }
