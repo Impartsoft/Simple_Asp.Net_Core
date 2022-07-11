@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Simple_Asp.Net_Core.ServiceProvider
+namespace Simple_Asp.Net_Core.ServiceProviders
 {
     public static class Audiences
     {

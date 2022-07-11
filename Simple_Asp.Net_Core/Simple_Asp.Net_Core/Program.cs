@@ -1,12 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Serialization;
 using Simple_Asp.Net_Core.Data;
-using Simple_Asp.Net_Core.ServiceProvider;
+using Simple_Asp.Net_Core.ServiceProviders;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddJWT();
+
+builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+builder.Services.Configure<Test2>(builder.Configuration.GetSection("Test2"));
+
+builder.Host.ConfigureLogging((loggingBuilder) => { loggingBuilder.ClearProviders(); loggingBuilder.AddConsole(); });
 
 //builder.Services.AddDbContextFactory<ApplicationDbContext>(
 //        options =>
@@ -29,6 +35,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 builder.Services.AddScoped<IFTPFileRepo, FTPFileRepo>();
+//builder.Services.AddSingleton<IFTPFileRepo, FTPFileRepo>();
 
 builder.Services.AddControllers().AddNewtonsoftJson(s =>
 {
@@ -48,9 +55,32 @@ app.UseSwaggerUI(c =>
 });
 
 app.UseExceptionHandler(builder => builder.Run(async context => await ExceptionHandler.ErrorEvent(context)));
+app.UseRouting();
 app.UseCors("CorsTest");
 app.UseAuthentication();
-app.UseRouting();
 app.UseAuthorization();
+
+// custom mid1
+app.Use(async (httpcontext, _next) =>
+{
+    global::System.Console.WriteLine("mid1 request");
+
+    await _next.Invoke();
+
+    global::System.Console.WriteLine("mid1 respose");
+});
+
+// custom mid2
+app.Use(async (httpcontext, _next) =>
+{
+    global::System.Console.WriteLine("mid2 request");
+
+    await _next.Invoke();
+
+    global::System.Console.WriteLine("mid2 respose");
+});
+
+
+
 app.UseEndpoints(endpoints => endpoints.MapDefaultControllerRoute());
 app.Run();

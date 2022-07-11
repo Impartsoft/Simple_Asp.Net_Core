@@ -19,12 +19,12 @@
             电子邮箱
             </summary>
         </member>
-        <member name="M:Simple_Asp.Net_Core.ServiceProvider.ExceptionHandler.SetResponse(Microsoft.AspNetCore.Http.HttpContext)">
+        <member name="M:Simple_Asp.Net_Core.ServiceProviders.ExceptionHandler.SetResponse(Microsoft.AspNetCore.Http.HttpContext)">
             <summary>
             解决异常消息返回跨域问题
             </summary>
         </member>
-        <member name="M:Simple_Asp.Net_Core.ServiceProvider.ExceptionHandler.GetApiResponse(System.String)">
+        <member name="M:Simple_Asp.Net_Core.ServiceProviders.ExceptionHandler.GetApiResponse(System.String)">
             <summary>
             响应Response
             </summary>

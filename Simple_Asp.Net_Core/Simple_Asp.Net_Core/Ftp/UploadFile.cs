@@ -3,7 +3,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 using FluentFTP;
-using Simple_Asp.Net_Core.ServiceProvider;
+using Simple_Asp.Net_Core.ServiceProviders;
 
 namespace Simple_Asp.Net_Core.Ftp
 {

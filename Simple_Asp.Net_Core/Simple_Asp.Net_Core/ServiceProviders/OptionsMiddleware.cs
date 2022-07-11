@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace Simple_Asp.Net_Core.ServiceProvider
+namespace Simple_Asp.Net_Core.ServiceProviders
 {
     public class OptionsMiddleware
     {
@@ -31,6 +31,7 @@ namespace Simple_Asp.Net_Core.ServiceProvider
             }
 
             return _next.Invoke(context);
+
         }
     }
 

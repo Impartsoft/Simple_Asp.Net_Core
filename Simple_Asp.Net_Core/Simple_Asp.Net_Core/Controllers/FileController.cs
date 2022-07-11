@@ -4,7 +4,7 @@ using Simple_Asp.Net_Core.Data;
 using Simple_Asp.Net_Core.Dtos;
 using Simple_Asp.Net_Core.Ftp;
 using Simple_Asp.Net_Core.Models;
-using Simple_Asp.Net_Core.ServiceProvider;
+using Simple_Asp.Net_Core.ServiceProviders;
 
 namespace Simple_Asp.Net_Core.Controllers
 {

@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 namespace Simple_Asp.Net_Core.Controllers
 {
-   // [Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CommandsController : ControllerBase

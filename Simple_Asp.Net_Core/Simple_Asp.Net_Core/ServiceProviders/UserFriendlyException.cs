@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Simple_Asp.Net_Core.ServiceProvider
+namespace Simple_Asp.Net_Core.ServiceProviders
 {
     public class UserFriendlyException : Exception
     {

@@ -3,7 +3,7 @@ using System.IO;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace Simple_Asp.Net_Core.ServiceProvider
+namespace Simple_Asp.Net_Core.ServiceProviders
 {
     public static class Swagger
     {

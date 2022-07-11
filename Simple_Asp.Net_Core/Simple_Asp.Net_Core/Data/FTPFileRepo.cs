@@ -1,5 +1,5 @@
 ﻿using Simple_Asp.Net_Core.Models;
-using Simple_Asp.Net_Core.ServiceProvider;
+using Simple_Asp.Net_Core.ServiceProviders;
 using System;
 using System.Collections.Generic;
 using System.Linq;

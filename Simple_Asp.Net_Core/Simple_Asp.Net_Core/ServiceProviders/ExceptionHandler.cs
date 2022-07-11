@@ -5,7 +5,7 @@ using Simple_Asp.Net_Core.Dtos;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Simple_Asp.Net_Core.ServiceProvider
+namespace Simple_Asp.Net_Core.ServiceProviders
 {
     public class ExceptionHandler
     {
