@@ -17,19 +17,19 @@ namespace Simple_Asp.Net_Core.Controllers
     {
         string config;
         string test2;
-        public OAuthController(IConfiguration configuration, IOptionsSnapshot<Test2> optionsDelegate)
+        private readonly ILogger<OAuthController> _logger;
+        public OAuthController(IConfiguration configuration, IOptionsSnapshot<Test2> optionsDelegate, ILogger<OAuthController> logger)
         {
             config = configuration.GetValue<string>("Test1");
             test2 = optionsDelegate.Value.Test21;
+            _logger = logger;
         }
 
         [HttpPost]
         [AllowAnonymous]
         public IActionResult Authenticate(string name, string password)
         {
-
-            //new ServiceProvider().GetService();
-
+            _logger.LogError("TEST1");
 
             // 此处需补充用户校验与用户具体信息获取
             if (string.IsNullOrWhiteSpace(name))

@@ -1,0 +1,102 @@
+2022-07-12 13:51:38.1964|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. 
+2022-07-12 13:51:38.2406|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-07-12 13:51:38.2600|0|WARN|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. 
+2022-07-12 13:51:38.2781|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2022-07-12 13:51:38.3078|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-07-12 13:51:38.3148|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Repository contains no viable default key. Caller should generate a key with immediate activation. 
+2022-07-12 13:51:38.3148|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Policy resolution states that a new key should be added to the key ring. 
+2022-07-12 13:51:38.3148|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Creating key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073} with creation date 2022-07-12 13:51:38Z, activation date 2022-07-12 13:51:38Z, and expiration date 2022-10-10 13:51:38Z. 
+2022-07-12 13:51:38.3307|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Descriptor deserializer type for key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. 
+2022-07-12 13:51:38.3348|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No key escrow sink found. Not writing key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073} to escrow. 
+2022-07-12 13:51:38.3348|0|WARN|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No XML encryptor configured. Key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073} may be persisted to storage in unencrypted form. 
+2022-07-12 13:51:38.3348|0|INFO|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Writing data to file '/root/.aspnet/DataProtection-Keys/key-f58ced0f-8a84-4d9a-84b3-3ae9f5478073.xml'. 
+2022-07-12 13:51:38.3348|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Key cache expiration token triggered by 'CreateNewKey' operation. 
+2022-07-12 13:51:38.3348|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/root/.aspnet/DataProtection-Keys/key-f58ced0f-8a84-4d9a-84b3-3ae9f5478073.xml'. 
+2022-07-12 13:51:38.3348|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073}. 
+2022-07-12 13:51:38.3439|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073} with expiration date 2022-10-10 13:51:38Z as default key. 
+2022-07-12 13:51:38.3439|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2022-07-12 13:51:38.3439|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2022-07-12 13:51:38.3439|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2022-07-12 13:51:38.3439|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073} as the default key. 
+2022-07-12 13:51:38.3439|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f58ced0f-8a84-4d9a-84b3-3ae9f5478073} was loaded during application startup. 
+2022-07-12 13:51:38.4419|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: F104FF3FA7D036D5ED04A3A5441470A839EC7C9A) 
+2022-07-12 13:51:38.4953|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://[::]:443 
+2022-07-12 13:51:38.5025|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80 
+2022-07-12 13:51:38.5025|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Simple_Asp.Net_Core 
+2022-07-12 13:51:38.5025|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-07-12 13:51:38.5025|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-07-12 13:51:38.5025|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/ 
+2022-07-12 13:51:38.5025|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-07-12 13:51:39.0896|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ41MIEVFT5" accepted. 
+2022-07-12 13:51:39.0896|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ41MIEVFT6" accepted. 
+2022-07-12 13:51:39.0896|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ41MIEVFT5" started. 
+2022-07-12 13:51:39.0896|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ41MIEVFT6" started. 
+2022-07-12 13:51:39.1394|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMJ41MIEVFT5" received FIN. 
+2022-07-12 13:51:39.1563|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMJ41MIEVFT6 established using the following protocol: Tls13 
+2022-07-12 13:51:39.1563|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMJ41MIEVFT5 established using the following protocol: Tls13 
+2022-07-12 13:51:39.1665|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT5" is closed. The last processed stream ID was 0. 
+2022-07-12 13:51:39.1665|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMJ41MIEVFT5" sending FIN because: "The client closed the connection." 
+2022-07-12 13:51:39.1665|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE. 
+2022-07-12 13:51:39.1744|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-12 13:51:39.1744|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2022-07-12 13:51:39.1744|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2022-07-12 13:51:39.1744|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-12 13:51:39.1744|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" received HEADERS frame for stream ID 1 with length 488 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2022-07-12 13:51:39.1744|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ41MIEVFT5" stopped. 
+2022-07-12 13:51:39.1949|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2022-07-12 13:51:39.2029|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:49153/swagger/index.html - - 
+2022-07-12 13:51:39.2029|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-07-12 13:51:39.2029|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-12 13:51:39.2957|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2022-07-12 13:51:39.2957|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending DATA frame for stream ID 1 with length 4751 and flags NONE. 
+2022-07-12 13:51:39.2957|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2022-07-12 13:51:39.3027|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:49153/swagger/index.html - - - 200 - text/html;charset=utf-8 102.2687ms 
+2022-07-12 13:51:39.5056|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" received HEADERS frame for stream ID 3 with length 107 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2022-07-12 13:51:39.5056|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:49153/swagger/v1/swagger.json - - 
+2022-07-12 13:51:39.5056|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-12 13:51:39.6321|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2022-07-12 13:51:39.6326|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending DATA frame for stream ID 3 with length 14946 and flags NONE. 
+2022-07-12 13:51:39.6326|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2022-07-12 13:51:39.6326|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:49153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.1322ms 
+2022-07-12 13:51:54.0278|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" received HEADERS frame for stream ID 5 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2022-07-12 13:51:54.0278|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2022-07-12 13:51:54.0278|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:49153/api/OAuth?name=1&password=1 - 0 
+2022-07-12 13:51:54.0278|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-12 13:51:54.0278|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ41MIEVFT6" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2022-07-12 13:51:54.0334|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2022-07-12 13:51:54.0616|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/OAuth' 
+2022-07-12 13:51:54.0640|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Simple_Asp.Net_Core.Controllers.OAuthController.Authenticate (Simple_Asp.Net_Core)' with route pattern 'api/OAuth' is valid for the request path '/api/OAuth' 
+2022-07-12 13:51:54.0640|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Simple_Asp.Net_Core.Controllers.OAuthController.Authenticate (Simple_Asp.Net_Core)' 
+2022-07-12 13:51:54.0640|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:49153'. 
+2022-07-12 13:51:54.0640|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2022-07-12 13:51:54.1517|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2022-07-12 13:51:54.1547|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Simple_Asp.Net_Core.Controllers.OAuthController.Authenticate (Simple_Asp.Net_Core)' 
+2022-07-12 13:51:54.1697|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "OAuth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(System.String, System.String) on controller Simple_Asp.Net_Core.Controllers.OAuthController (Simple_Asp.Net_Core). 
+2022-07-12 13:51:54.1697|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-07-12 13:51:54.1697|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2022-07-12 13:51:54.1722|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-07-12 13:51:54.1722|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-07-12 13:51:54.1722|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-07-12 13:51:54.1722|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-12 13:51:54.1722|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-12 13:51:54.1722|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Simple_Asp.Net_Core.Controllers.OAuthController (Simple_Asp.Net_Core) 
+2022-07-12 13:51:58.8358|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Simple_Asp.Net_Core.Controllers.OAuthController (Simple_Asp.Net_Core) 
+2022-07-12 13:51:58.8423|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'name' of type 'System.String' ... 
+2022-07-12 13:51:58.8423|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'name' of type 'System.String' using the name 'name' in request data ... 
+2022-07-12 13:51:58.8423|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'name' of type 'System.String'. 
+2022-07-12 13:51:58.8423|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'name' of type 'System.String'. 
+2022-07-12 13:51:58.8423|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'name' of type 'System.String' ... 
+2022-07-12 13:51:58.8690|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'name' of type 'System.String'. 
+2022-07-12 13:51:58.8690|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'password' of type 'System.String' ... 
+2022-07-12 13:51:58.8690|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ... 
+2022-07-12 13:51:58.8690|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'password' of type 'System.String'. 
+2022-07-12 13:51:58.8690|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'password' of type 'System.String'. 
+2022-07-12 13:51:58.8690|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'password' of type 'System.String' ... 
+2022-07-12 13:51:58.8722|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'password' of type 'System.String'. 
+2022-07-12 13:51:58.8722|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-12 13:51:58.8722|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-12 13:51:58.8722|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-12 13:51:58.8722|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-12 13:51:58.8722|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Simple_Asp.Net_Core.Controllers.OAuthController.Authenticate (Simple_Asp.Net_Core) - Validation state: Valid 
+2022-07-12 13:51:58.8722|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Simple_Asp.Net_Core.Controllers.OAuthController.Authenticate (Simple_Asp.Net_Core) with arguments (1, 1) 
+2022-07-12 13:52:00.6835|0|ERROR|Simple_Asp.Net_Core.Controllers.OAuthController|TEST1 

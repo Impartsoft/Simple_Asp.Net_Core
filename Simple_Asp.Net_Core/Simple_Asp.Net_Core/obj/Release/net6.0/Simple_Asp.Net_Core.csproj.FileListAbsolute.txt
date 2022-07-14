@@ -46,3 +46,8 @@ D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Release\net6.0\Simple_Asp.Net_Core.pdb
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Release\net6.0\Simple_Asp.Net_Core.genruntimeconfig.cache
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Release\net6.0\ref\Simple_Asp.Net_Core.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\FluentFTP.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\nlog.config
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\NLog.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\NLog.Extensions.Logging.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\NLog.Web.AspNetCore.dll

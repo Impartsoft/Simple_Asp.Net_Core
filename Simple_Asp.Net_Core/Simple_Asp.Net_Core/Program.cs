@@ -4,6 +4,7 @@ using Simple_Asp.Net_Core.Data;
 using Simple_Asp.Net_Core.ServiceProviders;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
+using NLog.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
@@ -12,7 +13,9 @@ builder.Services.AddJWT();
 builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 builder.Services.Configure<Test2>(builder.Configuration.GetSection("Test2"));
 
-builder.Host.ConfigureLogging((loggingBuilder) => { loggingBuilder.ClearProviders(); loggingBuilder.AddConsole(); });
+// NLog: Setup NLog for Dependency injection
+builder.Logging.ClearProviders();
+builder.Host.UseNLog();
 
 //builder.Services.AddDbContextFactory<ApplicationDbContext>(
 //        options =>
@@ -43,6 +46,8 @@ builder.Services.AddControllers().AddNewtonsoftJson(s =>
 });
 
 var app = builder.Build();
+//app.UseHttpLogging();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
