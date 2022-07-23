@@ -1,0 +1,67 @@
+2022-07-15 13:29:44.4601|0|WARN|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. |url: |action: |Microsoft.Extensions.Logging.LoggingExtensions.UsingEphemeralFileSystemLocationInContainer
+2022-07-15 13:29:44.5502|0|WARN|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No XML encryptor configured. Key {a759be6f-23e8-4199-a4ec-7b4996d520a1} may be persisted to storage in unencrypted form. |url: |action: |Microsoft.Extensions.Logging.LoggingExtensions.NoXMLEncryptorConfiguredKeyMayBePersistedToStorageInUnencryptedForm
+2022-07-15 13:29:44.7945|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://[::]:443 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/ |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-15 13:30:09.3887|0|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. FluentFTP.FtpAuthenticationException: Permission denied.
+   at FluentFTP.FtpClient.Authenticate(String userName, String password, String account)
+   at FluentFTP.FtpClient.Connect()
+   at Simple_Asp.Net_Core.Ftp.UploadFileExample.UploadFileAsync2(Stream fileStream, String tempFileName, String remoteFilePath) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Ftp\UploadFile.cs:line 62
+   at Simple_Asp.Net_Core.Controllers.FileController.FtpUpload(List`1 files) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Controllers\FileController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 83
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 73
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)|url: https://localhost/api/File/FtpUpload|action: FtpUpload|Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException
+2022-07-15 14:12:44.7496|0|WARN|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. |url: |action: |Microsoft.Extensions.Logging.LoggingExtensions.UsingEphemeralFileSystemLocationInContainer
+2022-07-15 14:12:44.9500|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://[::]:443 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2022-07-15 14:12:44.9500|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2022-07-15 14:12:44.9500|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-15 14:12:44.9596|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-15 14:12:44.9596|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/ |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-15 14:12:59.7148|0|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.Net.Sockets.SocketException (111): Connection refused
+   at FluentFTP.FtpSocketStream.Connect(String host, Int32 port, FtpIpVersion ipVersions)
+   at FluentFTP.FtpClient.Connect()
+   at Simple_Asp.Net_Core.Ftp.UploadFileExample.UploadFileAsync2(Stream fileStream, String tempFileName, String remoteFilePath) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Ftp\UploadFile.cs:line 62
+   at Simple_Asp.Net_Core.Controllers.FileController.FtpUpload(List`1 files) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Controllers\FileController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 83
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 73
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)|url: https://localhost/api/File/FtpUpload|action: FtpUpload|Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException

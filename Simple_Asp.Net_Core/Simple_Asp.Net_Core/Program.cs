@@ -25,6 +25,8 @@ builder.Services.AddDbContext<CommanderContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
 builder.Services.AddDbContext<FTPFileContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
+builder.Services.AddDbContext<GoodsContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
 
 //builder.Services.AddDbContextPool<CommanderContext>(options =>
 //    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
@@ -38,7 +40,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 builder.Services.AddScoped<IFTPFileRepo, FTPFileRepo>();
-//builder.Services.AddSingleton<IFTPFileRepo, FTPFileRepo>();
+builder.Services.AddScoped<IGoodsRepo, GoodsRepo>();
 
 builder.Services.AddControllers().AddNewtonsoftJson(s =>
 {

@@ -1,0 +1,262 @@
+2022-07-15 13:29:44.3899|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. 
+2022-07-15 13:29:44.4384|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-07-15 13:29:44.4601|0|WARN|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. 
+2022-07-15 13:29:44.4773|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2022-07-15 13:29:44.5057|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-07-15 13:29:44.5154|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Repository contains no viable default key. Caller should generate a key with immediate activation. 
+2022-07-15 13:29:44.5154|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Policy resolution states that a new key should be added to the key ring. 
+2022-07-15 13:29:44.5190|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Creating key {a759be6f-23e8-4199-a4ec-7b4996d520a1} with creation date 2022-07-15 13:29:44Z, activation date 2022-07-15 13:29:44Z, and expiration date 2022-10-13 13:29:44Z. 
+2022-07-15 13:29:44.5440|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Descriptor deserializer type for key {a759be6f-23e8-4199-a4ec-7b4996d520a1} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. 
+2022-07-15 13:29:44.5502|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No key escrow sink found. Not writing key {a759be6f-23e8-4199-a4ec-7b4996d520a1} to escrow. 
+2022-07-15 13:29:44.5502|0|WARN|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No XML encryptor configured. Key {a759be6f-23e8-4199-a4ec-7b4996d520a1} may be persisted to storage in unencrypted form. 
+2022-07-15 13:29:44.5502|0|INFO|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Writing data to file '/root/.aspnet/DataProtection-Keys/key-a759be6f-23e8-4199-a4ec-7b4996d520a1.xml'. 
+2022-07-15 13:29:44.5502|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Key cache expiration token triggered by 'CreateNewKey' operation. 
+2022-07-15 13:29:44.5502|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/root/.aspnet/DataProtection-Keys/key-a759be6f-23e8-4199-a4ec-7b4996d520a1.xml'. 
+2022-07-15 13:29:44.5502|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {a759be6f-23e8-4199-a4ec-7b4996d520a1}. 
+2022-07-15 13:29:44.5600|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {a759be6f-23e8-4199-a4ec-7b4996d520a1} with expiration date 2022-10-13 13:29:44Z as default key. 
+2022-07-15 13:29:44.5600|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2022-07-15 13:29:44.5600|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2022-07-15 13:29:44.5600|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2022-07-15 13:29:44.5600|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {a759be6f-23e8-4199-a4ec-7b4996d520a1} as the default key. 
+2022-07-15 13:29:44.5600|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {a759be6f-23e8-4199-a4ec-7b4996d520a1} was loaded during application startup. 
+2022-07-15 13:29:44.6736|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: F104FF3FA7D036D5ED04A3A5441470A839EC7C9A) 
+2022-07-15 13:29:44.7945|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://[::]:443 
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80 
+2022-07-15 13:29:44.8015|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Simple_Asp.Net_Core 
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-07-15 13:29:44.8015|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/ 
+2022-07-15 13:29:44.8015|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-07-15 13:29:45.3385|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ6COAHRAHH" accepted. 
+2022-07-15 13:29:45.3403|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ6COAHRAHH" started. 
+2022-07-15 13:29:45.3891|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMJ6COAHRAHH established using the following protocol: Tls13 
+2022-07-15 13:29:45.4025|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE. 
+2022-07-15 13:29:45.4025|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-15 13:29:45.4025|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2022-07-15 13:29:45.4025|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2022-07-15 13:29:45.4025|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-15 13:29:45.4025|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received HEADERS frame for stream ID 1 with length 488 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2022-07-15 13:29:45.4249|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2022-07-15 13:29:45.4331|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:49153/swagger/index.html - - 
+2022-07-15 13:29:45.4331|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-07-15 13:29:45.4331|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-15 13:29:45.5434|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2022-07-15 13:29:45.5434|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending DATA frame for stream ID 1 with length 4751 and flags NONE. 
+2022-07-15 13:29:45.5434|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2022-07-15 13:29:45.5505|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:49153/swagger/index.html - - - 200 - text/html;charset=utf-8 119.8535ms 
+2022-07-15 13:29:45.6791|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received HEADERS frame for stream ID 3 with length 107 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2022-07-15 13:29:45.6791|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:49153/swagger/v1/swagger.json - - 
+2022-07-15 13:29:45.6791|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-15 13:29:45.7957|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2022-07-15 13:29:45.7957|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending DATA frame for stream ID 3 with length 14946 and flags NONE. 
+2022-07-15 13:29:45.7957|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2022-07-15 13:29:45.7957|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:49153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.9408ms 
+2022-07-15 13:30:03.7916|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received HEADERS frame for stream ID 5 with length 123 and flags END_HEADERS, PRIORITY. 
+2022-07-15 13:30:03.7916|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2022-07-15 13:30:03.7916|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:49153/api/File/FtpUpload multipart/form-data;+boundary=----WebKitFormBoundaryHSu4d2G9zk0jU2l7 13241 
+2022-07-15 13:30:03.7916|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2022-07-15 13:30:03.7916|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-15 13:30:03.7916|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2022-07-15 13:30:03.7916|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received DATA frame for stream ID 5 with length 13241 and flags END_STREAM. 
+2022-07-15 13:30:03.8256|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/File/FtpUpload' 
+2022-07-15 13:30:03.8256|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' with route pattern 'api/File/FtpUpload' is valid for the request path '/api/File/FtpUpload' 
+2022-07-15 13:30:03.8256|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' 
+2022-07-15 13:30:03.8300|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:49153'. 
+2022-07-15 13:30:03.8300|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2022-07-15 13:30:03.9194|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2022-07-15 13:30:03.9194|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' 
+2022-07-15 13:30:03.9436|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "FtpUpload", controller = "File"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FtpUpload(System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]) on controller Simple_Asp.Net_Core.Controllers.FileController (Simple_Asp.Net_Core). 
+2022-07-15 13:30:03.9436|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-07-15 13:30:03.9436|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.ConsumesAttribute 
+2022-07-15 13:30:03.9436|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-07-15 13:30:03.9436|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-07-15 13:30:03.9436|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-07-15 13:30:03.9436|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 13:30:03.9436|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 13:30:03.9436|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 13:30:03.9436|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 13:30:03.9436|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Simple_Asp.Net_Core.Controllers.FileController (Simple_Asp.Net_Core) 
+2022-07-15 13:30:04.1328|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2022-07-15 13:30:04.2733|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Simple_Asp.Net_Core.Controllers.FileController (Simple_Asp.Net_Core) 
+2022-07-15 13:30:04.2733|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJ6COAHRAHH", Request id "0HMJ6COAHRAHH:00000005": started reading request body. 
+2022-07-15 13:30:04.2797|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJ6COAHRAHH", Request id "0HMJ6COAHRAHH:00000005": done reading request body. 
+2022-07-15 13:30:04.2797|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]' ... 
+2022-07-15 13:30:04.2917|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]' using the name 'files' in request data ... 
+2022-07-15 13:30:04.2917|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Done attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]'. 
+2022-07-15 13:30:04.2917|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]'. 
+2022-07-15 13:30:04.2917|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]' ... 
+2022-07-15 13:30:04.2917|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]'. 
+2022-07-15 13:30:04.3006|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 13:30:04.3006|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 13:30:04.3006|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 13:30:04.3006|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 13:30:04.3006|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core) - Validation state: Valid 
+2022-07-15 13:30:04.3006|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core) with arguments (System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]) 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 13:30:09.3595|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 13:30:09.3595|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core) in 5416.1668ms 
+2022-07-15 13:30:09.3595|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' 
+2022-07-15 13:30:09.3887|0|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. FluentFTP.FtpAuthenticationException: Permission denied.
+   at FluentFTP.FtpClient.Authenticate(String userName, String password, String account)
+   at FluentFTP.FtpClient.Connect()
+   at Simple_Asp.Net_Core.Ftp.UploadFileExample.UploadFileAsync2(Stream fileStream, String tempFileName, String remoteFilePath) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Ftp\UploadFile.cs:line 62
+   at Simple_Asp.Net_Core.Controllers.FileController.FtpUpload(List`1 files) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Controllers\FileController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 83
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 73
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-07-15 13:30:09.4975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending HEADERS frame for stream ID 5 with length 184 and flags END_HEADERS. 
+2022-07-15 13:30:09.4975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending DATA frame for stream ID 5 with length 84 and flags NONE. 
+2022-07-15 13:30:09.4975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2022-07-15 13:30:09.5017|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6COAHRAHH" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-15 13:30:09.5017|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:49153/api/File/FtpUpload multipart/form-data;+boundary=----WebKitFormBoundaryHSu4d2G9zk0jU2l7 13241 - 200 - application/json 5709.6782ms 
+2022-07-15 14:12:44.6960|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. 
+2022-07-15 14:12:44.7344|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-07-15 14:12:44.7496|0|WARN|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. 
+2022-07-15 14:12:44.7622|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2022-07-15 14:12:44.7868|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-07-15 14:12:44.7916|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/root/.aspnet/DataProtection-Keys/key-a759be6f-23e8-4199-a4ec-7b4996d520a1.xml'. 
+2022-07-15 14:12:44.7916|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {a759be6f-23e8-4199-a4ec-7b4996d520a1}. 
+2022-07-15 14:12:44.8026|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {a759be6f-23e8-4199-a4ec-7b4996d520a1} with expiration date 2022-10-13 13:29:44Z as default key. 
+2022-07-15 14:12:44.8026|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2022-07-15 14:12:44.8098|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2022-07-15 14:12:44.8098|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2022-07-15 14:12:44.8098|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {a759be6f-23e8-4199-a4ec-7b4996d520a1} as the default key. 
+2022-07-15 14:12:44.8098|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {a759be6f-23e8-4199-a4ec-7b4996d520a1} was loaded during application startup. 
+2022-07-15 14:12:44.8997|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: F104FF3FA7D036D5ED04A3A5441470A839EC7C9A) 
+2022-07-15 14:12:44.9500|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://[::]:443 
+2022-07-15 14:12:44.9500|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80 
+2022-07-15 14:12:44.9500|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Simple_Asp.Net_Core 
+2022-07-15 14:12:44.9500|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-07-15 14:12:44.9596|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-07-15 14:12:44.9596|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/ 
+2022-07-15 14:12:44.9596|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-07-15 14:12:45.4760|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ6DGBFVV3G" accepted. 
+2022-07-15 14:12:45.4760|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMJ6DGBFVV3G" started. 
+2022-07-15 14:12:45.5235|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMJ6DGBFVV3G established using the following protocol: Tls13 
+2022-07-15 14:12:45.5375|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE. 
+2022-07-15 14:12:45.5420|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-15 14:12:45.5420|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2022-07-15 14:12:45.5420|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2022-07-15 14:12:45.5420|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-15 14:12:45.5420|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received HEADERS frame for stream ID 1 with length 488 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2022-07-15 14:12:45.5620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2022-07-15 14:12:45.5710|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:49153/swagger/index.html - - 
+2022-07-15 14:12:45.5710|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-07-15 14:12:45.5710|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-15 14:12:45.6640|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2022-07-15 14:12:45.6640|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending DATA frame for stream ID 1 with length 4751 and flags NONE. 
+2022-07-15 14:12:45.6640|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2022-07-15 14:12:45.6726|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:49153/swagger/index.html - - - 200 - text/html;charset=utf-8 103.3073ms 
+2022-07-15 14:12:45.8120|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received HEADERS frame for stream ID 3 with length 107 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2022-07-15 14:12:45.8120|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:49153/swagger/v1/swagger.json - - 
+2022-07-15 14:12:45.8120|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-15 14:12:45.9326|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2022-07-15 14:12:45.9326|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending DATA frame for stream ID 3 with length 14946 and flags NONE. 
+2022-07-15 14:12:45.9326|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2022-07-15 14:12:45.9326|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:49153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.7101ms 
+2022-07-15 14:12:54.6122|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received HEADERS frame for stream ID 5 with length 123 and flags END_HEADERS, PRIORITY. 
+2022-07-15 14:12:54.6122|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received DATA frame for stream ID 5 with length 13241 and flags END_STREAM. 
+2022-07-15 14:12:54.6122|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:49153/api/File/FtpUpload multipart/form-data;+boundary=----WebKitFormBoundaryWpe1PddoPZsxcY5A 13241 
+2022-07-15 14:12:54.6122|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-07-15 14:12:54.6122|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2022-07-15 14:12:54.6449|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/File/FtpUpload' 
+2022-07-15 14:12:54.6449|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' with route pattern 'api/File/FtpUpload' is valid for the request path '/api/File/FtpUpload' 
+2022-07-15 14:12:54.6449|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' 
+2022-07-15 14:12:54.6494|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:49153'. 
+2022-07-15 14:12:54.6494|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2022-07-15 14:12:54.7135|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2022-07-15 14:12:54.7135|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' 
+2022-07-15 14:12:54.7383|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "FtpUpload", controller = "File"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FtpUpload(System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]) on controller Simple_Asp.Net_Core.Controllers.FileController (Simple_Asp.Net_Core). 
+2022-07-15 14:12:54.7394|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-07-15 14:12:54.7394|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.ConsumesAttribute 
+2022-07-15 14:12:54.7394|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-07-15 14:12:54.7394|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-07-15 14:12:54.7394|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-07-15 14:12:54.7394|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 14:12:54.7394|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 14:12:54.7394|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 14:12:54.7394|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 14:12:54.7394|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Simple_Asp.Net_Core.Controllers.FileController (Simple_Asp.Net_Core) 
+2022-07-15 14:12:54.8945|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2022-07-15 14:12:55.0314|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Simple_Asp.Net_Core.Controllers.FileController (Simple_Asp.Net_Core) 
+2022-07-15 14:12:55.0314|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJ6DGBFVV3G", Request id "0HMJ6DGBFVV3G:00000005": started reading request body. 
+2022-07-15 14:12:55.0314|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJ6DGBFVV3G", Request id "0HMJ6DGBFVV3G:00000005": done reading request body. 
+2022-07-15 14:12:55.0465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]' ... 
+2022-07-15 14:12:55.0465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]' using the name 'files' in request data ... 
+2022-07-15 14:12:55.0498|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Done attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]'. 
+2022-07-15 14:12:55.0498|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]'. 
+2022-07-15 14:12:55.0498|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]' ... 
+2022-07-15 14:12:55.0498|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'files' of type 'System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]'. 
+2022-07-15 14:12:55.0498|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 14:12:55.0594|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 14:12:55.0594|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 14:12:55.0594|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 14:12:55.0594|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core) - Validation state: Valid 
+2022-07-15 14:12:55.0594|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core) with arguments (System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]) 
+2022-07-15 14:12:59.6871|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 14:12:59.6871|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-07-15 14:12:59.6871|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 14:12:59.6871|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-07-15 14:12:59.6871|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 14:12:59.6893|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute. 
+2022-07-15 14:12:59.6893|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 14:12:59.6893|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-07-15 14:12:59.6893|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core) in 4948.6904ms 
+2022-07-15 14:12:59.6893|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Simple_Asp.Net_Core.Controllers.FileController.FtpUpload (Simple_Asp.Net_Core)' 
+2022-07-15 14:12:59.7148|0|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.Net.Sockets.SocketException (111): Connection refused
+   at FluentFTP.FtpSocketStream.Connect(String host, Int32 port, FtpIpVersion ipVersions)
+   at FluentFTP.FtpClient.Connect()
+   at Simple_Asp.Net_Core.Ftp.UploadFileExample.UploadFileAsync2(Stream fileStream, String tempFileName, String remoteFilePath) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Ftp\UploadFile.cs:line 62
+   at Simple_Asp.Net_Core.Controllers.FileController.FtpUpload(List`1 files) in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Controllers\FileController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 83
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Program.cs:line 73
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-07-15 14:12:59.8159|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending HEADERS frame for stream ID 5 with length 184 and flags END_HEADERS. 
+2022-07-15 14:12:59.8159|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending DATA frame for stream ID 5 with length 84 and flags NONE. 
+2022-07-15 14:12:59.8159|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2022-07-15 14:12:59.8159|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMJ6DGBFVV3G" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2022-07-15 14:12:59.8209|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:49153/api/File/FtpUpload multipart/form-data;+boundary=----WebKitFormBoundaryWpe1PddoPZsxcY5A 13241 - 200 - application/json 5207.2770ms 

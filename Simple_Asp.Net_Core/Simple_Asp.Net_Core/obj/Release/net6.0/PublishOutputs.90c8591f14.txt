@@ -2,6 +2,7 @@ D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\nlog.config
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\appsettings.Development.json
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\appsettings.json
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\libman.json
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Simple_Asp.Net_Core.dll
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Simple_Asp.Net_Core.runtimeconfig.json
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Simple_Asp.Net_Core.pdb

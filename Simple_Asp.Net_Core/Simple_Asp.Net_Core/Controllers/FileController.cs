@@ -39,7 +39,7 @@ namespace Simple_Asp.Net_Core.Controllers
             return Ok(SysMsg.Success("图片上传成功！", ids));
         }
          
-        [HttpPost]
+        [HttpGet]
         public IActionResult FtpDownLoad(int id)
         {
             var ftpFile = _repository.GetFTPFileById(id);
