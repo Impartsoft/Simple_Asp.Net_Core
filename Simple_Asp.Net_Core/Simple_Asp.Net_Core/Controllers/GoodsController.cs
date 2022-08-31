@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Simple_Asp.Net_Core.Data;
@@ -23,55 +24,54 @@ namespace Simple_Asp.Net_Core.Controllers
         }
 
         //GET api/commands
+        [Authorize]
         [HttpGet]
-        public ActionResult<IEnumerable<GoodsReadDto>> GetAllCommmands()
+        public ActionResult<SysMsg> GetAllCommmands()
         {
             var commandItems = _repository.GetAllGoods();
 
-            return Ok(_mapper.Map<IEnumerable<GoodsReadDto>>(commandItems));
+            return SysMsg.Success(_mapper.Map<IEnumerable<GoodsReadDto>>(commandItems));
         }
 
         //GET api/commands/{id}
         [HttpGet("{id}", Name = "GetGoodsById")]
-        public ActionResult<GoodsReadDto> GetGoodsById(int id)
+        public ActionResult<SysMsg> GetGoodsById(int id)
         {
             var commandItem = _repository.GetGoodsById(id);
             if (commandItem != null)
             {
-                return Ok(_mapper.Map<GoodsReadDto>(commandItem));
+                return SysMsg.Success(_mapper.Map<GoodsReadDto>(commandItem));
             }
-            return NotFound();
+            return SysMsg.Fail("未找到该产品！");
         }
 
         [HttpPost("SearchForPage")]
-        public async Task<ActionResult<IEnumerable<GoodsReadDto>>> SearchForPage(GoodsSearchPageParams searchPageParams)
+        public async Task<ActionResult<SysMsg>> SearchForPage(GoodsSearchPageParams searchPageParams)
         {
             var commandItems = await _repository.SearchForPage(searchPageParams);
 
-            return Ok(_mapper.Map<IEnumerable<GoodsReadDto>>(commandItems));
+            return SysMsg.Success(_mapper.Map<IEnumerable<GoodsReadDto>>(commandItems));
         }
 
         //POST api/commands
         [HttpPost]
-        public ActionResult<GoodsReadDto> CreateGoods(GoodsCreateDto commandCreateDto)
+        public ActionResult<SysMsg> CreateGoods(GoodsCreateDto commandCreateDto)
         {
             var commandModel = _mapper.Map<Goods>(commandCreateDto);
             _repository.CreateGoods(commandModel);
             _repository.SaveChanges();
 
-            var commandReadDto = _mapper.Map<GoodsReadDto>(commandModel);
-
-            return CreatedAtRoute(nameof(GetGoodsById), new { Id = commandReadDto.Id }, commandReadDto);
+            return SysMsg.Success("新增成功！",_mapper.Map<GoodsReadDto>(commandModel));
         }
 
         //PUT api/commands/{id}
         [HttpPut("{id}")]
-        public ActionResult UpdateGoods(int id, GoodsUpdateDto commandUpdateDto)
+        public ActionResult<SysMsg> UpdateGoods(int id, GoodsUpdateDto commandUpdateDto)
         {
             var commandModelFromRepo = _repository.GetGoodsById(id);
             if (commandModelFromRepo == null)
             {
-                return NotFound();
+                return SysMsg.Fail("未找到该产品！");
             }
             _mapper.Map(commandUpdateDto, commandModelFromRepo);
 
@@ -79,17 +79,17 @@ namespace Simple_Asp.Net_Core.Controllers
 
             _repository.SaveChanges();
 
-            return NoContent();
+            return SysMsg.Success("更新成功！");
         }
 
         //PATCH api/commands/{id}
         [HttpPatch("{id}")]
-        public ActionResult PartialGoodsUpdate(int id, JsonPatchDocument<GoodsUpdateDto> patchDoc)
+        public ActionResult<SysMsg> PartialGoodsUpdate(int id, JsonPatchDocument<GoodsUpdateDto> patchDoc)
         {
             var commandModelFromRepo = _repository.GetGoodsById(id);
             if (commandModelFromRepo == null)
             {
-                return NotFound();
+                return SysMsg.Fail("未找到该产品！");
             }
 
             var commandToPatch = _mapper.Map<GoodsUpdateDto>(commandModelFromRepo);
@@ -106,22 +106,22 @@ namespace Simple_Asp.Net_Core.Controllers
 
             _repository.SaveChanges();
 
-            return NoContent();
+            return SysMsg.Success("更新成功！");
         }
 
         //DELETE api/commands/{id}
         [HttpDelete("{id}")]
-        public ActionResult DeleteGoods(int id)
+        public ActionResult<SysMsg> DeleteGoods(int id)
         {
             var commandModelFromRepo = _repository.GetGoodsById(id);
             if (commandModelFromRepo == null)
             {
-                return NotFound();
+                return SysMsg.Fail("未找到该产品！");
             }
             _repository.DeleteGoods(commandModelFromRepo);
             _repository.SaveChanges();
 
-            return NoContent();
+            return SysMsg.Success("删除成功！");
         }
     }
 }

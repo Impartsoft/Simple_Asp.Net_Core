@@ -1,0 +1,17 @@
+
+*.dll
+*.dll
+*.cache
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.Tests/obj
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.Tests/bin
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.MSTests/obj
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.MSTests/bin
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.EdgeDriverTests/obj
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.EdgeDriverTests/bin
+Simple_Asp.Net_Core/Simple_Asp.Net_Core/obj
+Simple_Asp.Net_Core/Simple_Asp.Net_Core/bin
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.MSTests/obj/
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.MSTests/bin/
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.NTests/obj/
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.NTests/bin/
+Simple_Asp.Net_Core/Simple_Asp.Net_Core/obj/

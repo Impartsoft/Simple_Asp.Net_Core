@@ -56,7 +56,7 @@ public class GoodsRepo : IGoodsRepo
         if (id == 0)
             throw new UserFriendlyException("id不能为0！");
 
-        return _context.Goods.First(p => p.Id == id);
+        return _context.Goods.FirstOrDefault(p => p.Id == id);
     }
 
     public void UpdateGoods(Goods goods)
