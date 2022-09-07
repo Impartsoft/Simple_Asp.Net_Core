@@ -87,7 +87,5 @@ app.Use(async (httpcontext, _next) =>
     global::System.Console.WriteLine("mid2 respose");
 });
 
-
-
 app.UseEndpoints(endpoints => endpoints.MapDefaultControllerRoute());
 app.Run();

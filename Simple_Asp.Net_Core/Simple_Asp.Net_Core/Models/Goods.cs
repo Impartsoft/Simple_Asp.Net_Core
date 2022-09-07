@@ -42,29 +42,3 @@ public class Goods : EntityBase
     [MaxLength(2000)]
     public string? DBImageIds { get; set; }
 }
-
-
-//[Table("FTPFiles")]
-//public class FTPFile
-//{
-//    [Key]
-//    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-//    public int Id { get; set; }
-
-//    [Required]
-//    [MaxLength(250)]
-//    public string FileName { get; set; }
-
-//    [Required]
-//    [MaxLength(250)]
-//    public string FileContentType { get; set; }
-
-//    [Required]
-//    [MaxLength(250)]
-//    public string FTPFileName { get; set; }
-
-//    [Required]
-//    [MaxLength(250)]
-//    public string FTPPath { get; set; }
-//}
-
