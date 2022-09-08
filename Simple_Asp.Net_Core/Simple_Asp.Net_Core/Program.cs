@@ -5,6 +5,7 @@ using Simple_Asp.Net_Core.ServiceProviders;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using NLog.Web;
+using Simple_Asp.Net_Core.Model.DBContext;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();

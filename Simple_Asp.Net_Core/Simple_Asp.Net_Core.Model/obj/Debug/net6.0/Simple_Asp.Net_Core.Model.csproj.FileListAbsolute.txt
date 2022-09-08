@@ -1,0 +1,14 @@
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.csproj.AssemblyReference.cache
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.AssemblyInfoInputs.cache
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.AssemblyInfo.cs
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.csproj.CoreCompileInputs.cache
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\bin\Debug\net6.0\Simple_Asp.Net_Core.Model.deps.json
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\bin\Debug\net6.0\Simple_Asp.Net_Core.Model.runtimeconfig.json
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\bin\Debug\net6.0\Simple_Asp.Net_Core.Model.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\bin\Debug\net6.0\Simple_Asp.Net_Core.Model.pdb
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\refint\Simple_Asp.Net_Core.Model.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.pdb
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\Simple_Asp.Net_Core.Model.genruntimeconfig.cache
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core.Model\obj\Debug\net6.0\ref\Simple_Asp.Net_Core.Model.dll

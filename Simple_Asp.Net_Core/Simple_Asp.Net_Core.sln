@@ -4,14 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Asp.Net_Core", "Simple_Asp.Net_Core\Simple_Asp.Net_Core.csproj", "{3606F759-D027-4C4E-B267-2F6BEC3FEFA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DF353FD-45F3-46D0-A4CE-B53CBA3565AA} = {3DF353FD-45F3-46D0-A4CE-B53CBA3565AA}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Asp.Net_Core.Tests", "Simple_Asp.Net_Core.Tests\Simple_Asp.Net_Core.Tests.csproj", "{0A73E5A7-40E7-4D72-B9D7-01B0C1EDB5A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Asp.Net_Core.Tests", "Simple_Asp.Net_Core.Tests\Simple_Asp.Net_Core.Tests.csproj", "{0A73E5A7-40E7-4D72-B9D7-01B0C1EDB5A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Asp.Net_Core.NTests", "Simple_Asp.Net_Core.NTests\Simple_Asp.Net_Core.NTests.csproj", "{B242B5A5-06D8-4E4F-B9CD-B8F0A847A45F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Asp.Net_Core.NTests", "Simple_Asp.Net_Core.NTests\Simple_Asp.Net_Core.NTests.csproj", "{B242B5A5-06D8-4E4F-B9CD-B8F0A847A45F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Asp.Net_Core.MSTests", "Simple_Asp.Net_Core.MSTests\Simple_Asp.Net_Core.MSTests.csproj", "{29AC8E92-77EC-4935-ADE3-DDE0EC0FBCB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Asp.Net_Core.MSTests", "Simple_Asp.Net_Core.MSTests\Simple_Asp.Net_Core.MSTests.csproj", "{29AC8E92-77EC-4935-ADE3-DDE0EC0FBCB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Asp.Net_Core.EdgeDriverTests", "Simple_Asp.Net_Core.EdgeDriverTests\Simple_Asp.Net_Core.EdgeDriverTests.csproj", "{8EFFE28E-7994-4547-9513-F50218C9C076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Asp.Net_Core.EdgeDriverTests", "Simple_Asp.Net_Core.EdgeDriverTests\Simple_Asp.Net_Core.EdgeDriverTests.csproj", "{8EFFE28E-7994-4547-9513-F50218C9C076}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Asp.Net_Core.Model", "Simple_Asp.Net_Core.Model\Simple_Asp.Net_Core.Model.csproj", "{3DF353FD-45F3-46D0-A4CE-B53CBA3565AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +44,10 @@ Global
 		{8EFFE28E-7994-4547-9513-F50218C9C076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EFFE28E-7994-4547-9513-F50218C9C076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EFFE28E-7994-4547-9513-F50218C9C076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF353FD-45F3-46D0-A4CE-B53CBA3565AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF353FD-45F3-46D0-A4CE-B53CBA3565AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF353FD-45F3-46D0-A4CE-B53CBA3565AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF353FD-45F3-46D0-A4CE-B53CBA3565AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

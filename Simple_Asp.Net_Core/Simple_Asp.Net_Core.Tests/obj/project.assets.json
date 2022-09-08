@@ -2147,6 +2147,7 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.16.1",
           "NLog.Web.AspNetCore": "5.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
+          "Simple_Asp.Net_Core.Model": "1.0.0",
           "Swashbuckle.AspNetCore": "6.3.1"
         },
         "compile": {
@@ -2158,6 +2159,20 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Simple_Asp.Net_Core.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Simple_Asp.Net_Core.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Simple_Asp.Net_Core.Model.dll": {}
+        }
       }
     }
   },
@@ -7358,6 +7373,11 @@
       "type": "project",
       "path": "../Simple_Asp.Net_Core/Simple_Asp.Net_Core.csproj",
       "msbuildProject": "../Simple_Asp.Net_Core/Simple_Asp.Net_Core.csproj"
+    },
+    "Simple_Asp.Net_Core.Model/1.0.0": {
+      "type": "project",
+      "path": "../Simple_Asp.Net_Core.Model/Simple_Asp.Net_Core.Model.csproj",
+      "msbuildProject": "../Simple_Asp.Net_Core.Model/Simple_Asp.Net_Core.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {

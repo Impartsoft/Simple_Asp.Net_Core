@@ -1,4 +1,5 @@
-﻿using Simple_Asp.Net_Core.Models;
+﻿using Simple_Asp.Net_Core.Model.DBContext;
+using Simple_Asp.Net_Core.Models;
 using Simple_Asp.Net_Core.ServiceProviders;
 using System;
 using System.Collections.Generic;
