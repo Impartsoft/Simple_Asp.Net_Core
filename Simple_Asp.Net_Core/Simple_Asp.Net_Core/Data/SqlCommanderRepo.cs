@@ -40,11 +40,8 @@ namespace Simple_Asp.Net_Core.Data
             return _context.Commands.ToList();
         }
 
-        public Command GetCommandById(int id)
+        public Command GetCommandById(Guid id)
         {
-            if (id == 0)
-                throw new UserFriendlyException("id不能为0！");
-
             return _context.Commands.First(p => p.Id == id);
         }
 

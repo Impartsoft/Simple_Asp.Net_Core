@@ -22,5 +22,9 @@ namespace Simple_Asp.Net_Core.Model.DBContext
         }
 
         public DbSet<Command> Commands { get; set; }
+
+        public DbSet<FTPFile> FTPFiles { get; set; }
+
+        public DbSet<Goods> Goods { get; set; }
     }
 }

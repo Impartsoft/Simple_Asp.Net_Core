@@ -33,7 +33,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //GET api/commands/{id}
         [HttpGet("{id}", Name = "GetCommandById")]
-        public ActionResult<CommandReadDto> GetCommandById(int id)
+        public ActionResult<CommandReadDto> GetCommandById(Guid id)
         {
             var commandItem = _repository.GetCommandById(id);
             if (commandItem != null)
@@ -58,7 +58,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //PUT api/commands/{id}
         [HttpPut("{id}")]
-        public ActionResult UpdateCommand(int id, CommandUpdateDto commandUpdateDto)
+        public ActionResult UpdateCommand(Guid id, CommandUpdateDto commandUpdateDto)
         {
             var commandModelFromRepo = _repository.GetCommandById(id);
             if (commandModelFromRepo == null)
@@ -76,7 +76,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //PATCH api/commands/{id}
         [HttpPatch("{id}")]
-        public ActionResult PartialCommandUpdate(int id, JsonPatchDocument<CommandUpdateDto> patchDoc)
+        public ActionResult PartialCommandUpdate(Guid id, JsonPatchDocument<CommandUpdateDto> patchDoc)
         {
             var commandModelFromRepo = _repository.GetCommandById(id);
             if (commandModelFromRepo == null)
@@ -103,7 +103,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //DELETE api/commands/{id}
         [HttpDelete("{id}")]
-        public ActionResult DeleteCommand(int id)
+        public ActionResult DeleteCommand(Guid id)
         {
             var commandModelFromRepo = _repository.GetCommandById(id);
             if (commandModelFromRepo == null)

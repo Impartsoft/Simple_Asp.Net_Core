@@ -19,6 +19,7 @@ public class TestUserController
         result.StatusCode.Should().Be(200);
     }
 
+    [Fact]
     public void Test2()
     {
 

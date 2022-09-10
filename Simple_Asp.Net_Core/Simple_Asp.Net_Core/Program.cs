@@ -23,11 +23,12 @@ builder.Host.UseNLog();
 //            options.UseNpgsql(@"Server=(localdb)\mssqllocaldb;Database=Test"));
 
 builder.Services.AddDbContext<CommanderContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
-builder.Services.AddDbContext<FTPFileContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
-builder.Services.AddDbContext<GoodsContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
+    //options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql"),x=>x.MigrationsAssembly("Simple_Asp.Net_Core")));
+//builder.Services.AddDbContext<FTPFileContext>(options =>
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
+//builder.Services.AddDbContext<GoodsContext>(options =>
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
 
 //builder.Services.AddDbContextPool<CommanderContext>(options =>
 //    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
@@ -39,9 +40,9 @@ builder.Services.AddSwagger();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
-builder.Services.AddScoped<IFTPFileRepo, FTPFileRepo>();
-builder.Services.AddScoped<IGoodsRepo, GoodsRepo>();
+builder.Services.AddTransient<ICommanderRepo, SqlCommanderRepo>();
+builder.Services.AddTransient<IFTPFileRepo, FTPFileRepo>();
+builder.Services.AddTransient<IGoodsRepo, GoodsRepo>();
 
 builder.Services.AddControllers().AddNewtonsoftJson(s =>
 {

@@ -11,9 +11,9 @@ namespace Simple_Asp.Net_Core.Data;
 
 public class GoodsRepo : IGoodsRepo
 {
-    private readonly GoodsContext _context;
+    private readonly CommanderContext _context;
 
-    public GoodsRepo(GoodsContext context)
+    public GoodsRepo(CommanderContext context)
     {
         _context = context;
     }

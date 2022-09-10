@@ -9,9 +9,9 @@ namespace Simple_Asp.Net_Core.Data;
 
 public class FTPFileRepo : IFTPFileRepo
 {
-    private readonly FTPFileContext _context;
+    private readonly CommanderContext _context;
 
-    public FTPFileRepo(FTPFileContext context)
+    public FTPFileRepo(CommanderContext context)
     {
         _context = context;
     }
