@@ -23,7 +23,7 @@ namespace Simple_Asp.Net_Core.Controllers
         [HttpPost]
         public async Task<IActionResult> FtpUpload(List<IFormFile> files)
         {
-            var ids = new List<int>();
+            var ids = new List<Guid>();
             foreach (var formFile in files)
             {
                 if (formFile.Length > 0)
@@ -31,7 +31,7 @@ namespace Simple_Asp.Net_Core.Controllers
                     var ftpFileName = Path.GetRandomFileName();
                     await UploadFileExample.UploadFileAsync2(formFile.OpenReadStream(), ftpFileName, UploadFileExample.FTP_DEFAULT_PATH);
 
-                    int id = SaveFileInfo(formFile.FileName, formFile.ContentType, ftpFileName, UploadFileExample.FTP_DEFAULT_PATH);
+                    Guid id = SaveFileInfo(formFile.FileName, formFile.ContentType, ftpFileName, UploadFileExample.FTP_DEFAULT_PATH);
                     ids.Add(id);
                 }
             }
@@ -40,7 +40,7 @@ namespace Simple_Asp.Net_Core.Controllers
         }
          
         [HttpGet]
-        public IActionResult FtpDownLoad(int id)
+        public IActionResult FtpDownLoad(Guid id)
         {
             var ftpFile = _repository.GetFTPFileById(id);
             if (ftpFile == null)
@@ -49,7 +49,7 @@ namespace Simple_Asp.Net_Core.Controllers
             return File(DownloadFileExample.DownloadFileAsync2(ftpFile.FTPPath, ftpFile.FTPFileName), ftpFile.FileContentType);
         }
 
-        private int SaveFileInfo(string fileName, string fileContentType, string ftpFileName, string ftpPath)
+        private Guid SaveFileInfo(string fileName, string fileContentType, string ftpFileName, string ftpPath)
         {
             var fileCreateDto = new FTPFileCreateDto(fileName, fileContentType, ftpFileName, ftpPath);
 

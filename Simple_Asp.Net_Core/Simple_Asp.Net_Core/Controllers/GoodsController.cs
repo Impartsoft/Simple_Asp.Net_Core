@@ -35,7 +35,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //GET api/commands/{id}
         [HttpGet("{id}", Name = "GetGoodsById")]
-        public ActionResult<SysMsg> GetGoodsById(int id)
+        public ActionResult<SysMsg> GetGoodsById(Guid id)
         {
             var commandItem = _repository.GetGoodsById(id);
             if (commandItem != null)
@@ -66,7 +66,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //PUT api/commands/{id}
         [HttpPut("{id}")]
-        public ActionResult<SysMsg> UpdateGoods(int id, GoodsUpdateDto commandUpdateDto)
+        public ActionResult<SysMsg> UpdateGoods(Guid id, GoodsUpdateDto commandUpdateDto)
         {
             var commandModelFromRepo = _repository.GetGoodsById(id);
             if (commandModelFromRepo == null)
@@ -84,7 +84,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //PATCH api/commands/{id}
         [HttpPatch("{id}")]
-        public ActionResult<SysMsg> PartialGoodsUpdate(int id, JsonPatchDocument<GoodsUpdateDto> patchDoc)
+        public ActionResult<SysMsg> PartialGoodsUpdate(Guid id, JsonPatchDocument<GoodsUpdateDto> patchDoc)
         {
             var commandModelFromRepo = _repository.GetGoodsById(id);
             if (commandModelFromRepo == null)
@@ -111,7 +111,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
         //DELETE api/commands/{id}
         [HttpDelete("{id}")]
-        public ActionResult<SysMsg> DeleteGoods(int id)
+        public ActionResult<SysMsg> DeleteGoods(Guid id)
         {
             var commandModelFromRepo = _repository.GetGoodsById(id);
             if (commandModelFromRepo == null)

@@ -12,7 +12,7 @@ using Simple_Asp.Net_Core.Model.DBContext;
 namespace Simple_Asp.Net_Core.Migrations
 {
     [DbContext(typeof(CommanderContext))]
-    [Migration("20220910030337_init")]
+    [Migration("20220911124909_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,11 +50,9 @@ namespace Simple_Asp.Net_Core.Migrations
 
             modelBuilder.Entity("Simple_Asp.Net_Core.Models.FTPFile", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<string>("FTPFileName")
                         .IsRequired()
@@ -83,11 +81,9 @@ namespace Simple_Asp.Net_Core.Migrations
 
             modelBuilder.Entity("Simple_Asp.Net_Core.Models.Goods", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<string>("Code")
                         .IsRequired()

@@ -2,6 +2,8 @@
 
 namespace Simple_Asp.Net_Core.Controllers;
 
+[ApiController]
+[Route("[controller]")]
 public class UserController : ControllerBase
 {
     public UserController()
@@ -9,7 +11,7 @@ public class UserController : ControllerBase
 
     }
 
-    [HttpGet]
+    [HttpGet(Name ="GetUsers")]
     public async Task<IActionResult> Get()
     {
         return Ok("all good");

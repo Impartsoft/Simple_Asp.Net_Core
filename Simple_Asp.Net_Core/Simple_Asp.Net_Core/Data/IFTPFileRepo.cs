@@ -8,7 +8,7 @@ namespace Simple_Asp.Net_Core.Data
         bool SaveChanges();
 
         IEnumerable<FTPFile> GetAllFTPFiles();
-        FTPFile GetFTPFileById(int id);
+        FTPFile GetFTPFileById(Guid id);
         void CreateFTPFile(FTPFile file);
         void DeleteFTPFile(FTPFile file);
     }

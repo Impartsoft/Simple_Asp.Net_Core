@@ -52,11 +52,8 @@ public class GoodsRepo : IGoodsRepo
             return await _context.Goods.Skip(searchPageParams.PageSkip).Take(searchPageParams.PageSize).ToListAsync();
     }
 
-    public Goods GetGoodsById(int id)
+    public Goods GetGoodsById(Guid id)
     {
-        if (id == 0)
-            throw new UserFriendlyException("id不能为0！");
-
         return _context.Goods.FirstOrDefault(p => p.Id == id);
     }
 

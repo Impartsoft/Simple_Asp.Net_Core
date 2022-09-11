@@ -9,7 +9,7 @@ namespace Simple_Asp.Net_Core.Data
         bool SaveChanges();
 
         IEnumerable<Goods> GetAllGoods();
-        Goods GetGoodsById(int id);
+        Goods GetGoodsById(Guid id);
         void CreateGoods(Goods goods);
         void UpdateGoods(Goods goods);
         void DeleteGoods(Goods goods);

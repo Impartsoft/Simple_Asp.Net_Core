@@ -5,7 +5,7 @@ namespace Simple_Asp.Net_Core.Models
 {
     public class FTPFile
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public string FileName { get; set; }
 

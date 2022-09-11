@@ -40,11 +40,8 @@ public class FTPFileRepo : IFTPFileRepo
         return _context.FTPFiles.ToList();
     }
 
-    public FTPFile GetFTPFileById(int id)
+    public FTPFile GetFTPFileById(Guid id)
     {
-        if (id == 0)
-            throw new UserFriendlyException("id不能为0！");
-
         return _context.FTPFiles.First(p => p.Id == id);
     }
 

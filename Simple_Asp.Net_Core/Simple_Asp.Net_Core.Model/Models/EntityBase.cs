@@ -6,7 +6,7 @@ namespace Simple_Asp.Net_Core.Models
 {
     public class EntityBase
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public string? Inputter { get; set; }
 

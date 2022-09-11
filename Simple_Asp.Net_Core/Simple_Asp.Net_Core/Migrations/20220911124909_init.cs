@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
@@ -28,8 +27,7 @@ namespace Simple_Asp.Net_Core.Migrations
                 name: "tbFTPFile",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
                     FileName = table.Column<string>(type: "character varying(250)", maxLength: 250, nullable: false),
                     FileContentType = table.Column<string>(type: "character varying(250)", maxLength: 250, nullable: false),
                     FTPFileName = table.Column<string>(type: "character varying(250)", maxLength: 250, nullable: false),
@@ -44,8 +42,7 @@ namespace Simple_Asp.Net_Core.Migrations
                 name: "tbGood",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
                     Code = table.Column<string>(type: "character varying(250)", maxLength: 250, nullable: false),
                     Name = table.Column<string>(type: "character varying(250)", maxLength: 250, nullable: false),
                     Desc = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: false),
