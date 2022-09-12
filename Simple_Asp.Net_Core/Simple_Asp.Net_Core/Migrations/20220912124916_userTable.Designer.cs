@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Simple_Asp.Net_Core.Model.DBContext;
@@ -11,9 +12,10 @@ using Simple_Asp.Net_Core.Model.DBContext;
 namespace Simple_Asp.Net_Core.Migrations
 {
     [DbContext(typeof(CommanderContext))]
-    partial class CommanderContextModelSnapshot : ModelSnapshot
+    [Migration("20220912124916_userTable")]
+    partial class userTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,7 +31,7 @@ namespace Simple_Asp.Net_Core.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("DeleteDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<int>("DeleteTag")
                         .HasColumnType("integer");
@@ -39,7 +41,7 @@ namespace Simple_Asp.Net_Core.Migrations
                         .HasColumnType("character varying(30)");
 
                     b.Property<DateTime>("InputDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Inputter")
                         .HasMaxLength(30)
@@ -55,7 +57,7 @@ namespace Simple_Asp.Net_Core.Migrations
                         .HasColumnType("character varying(30)");
 
                     b.Property<DateTime>("ModifyDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("NickName")
                         .IsRequired()
@@ -153,7 +155,7 @@ namespace Simple_Asp.Net_Core.Migrations
                         .HasColumnType("character varying(2000)");
 
                     b.Property<DateTime>("DeleteDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<int>("DeleteTag")
                         .HasColumnType("integer");
@@ -168,7 +170,7 @@ namespace Simple_Asp.Net_Core.Migrations
                         .HasColumnType("character varying(500)");
 
                     b.Property<DateTime>("InputDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Inputter")
                         .HasMaxLength(30)
@@ -184,7 +186,7 @@ namespace Simple_Asp.Net_Core.Migrations
                         .HasColumnType("character varying(30)");
 
                     b.Property<DateTime>("ModifyDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
                         .IsRequired()

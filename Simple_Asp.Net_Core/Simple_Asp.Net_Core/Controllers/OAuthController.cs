@@ -35,7 +35,7 @@ namespace Simple_Asp.Net_Core.Controllers
             _userRepo = userRepo;
         }
 
-        [HttpPost]
+        [HttpPost("Authenticate")]
         [AllowAnonymous]
         public IActionResult Authenticate(string name, string password)
         {
@@ -63,11 +63,7 @@ namespace Simple_Asp.Net_Core.Controllers
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenString = tokenHandler.WriteToken(token);
 
-            Role role = Role.Salesperson;
-            if (name.ToUpper().Contains("MANAGER"))
-                role = Role.GeneralManager;
-
-            return Ok(SysMsg.Success("登入成功！", new { access_token = tokenString, role }));
+            return Ok(SysMsg.Success("登入成功！", new { access_token = tokenString, user = user }));
         }
 
         /// <summary>
@@ -81,13 +77,12 @@ namespace Simple_Asp.Net_Core.Controllers
             return userRead != null;
         }
 
+        [HttpPost("Register")]
+        [AllowAnonymous]
         public IActionResult Register(UserCreateDto userInput)
         {
             if (string.IsNullOrWhiteSpace(userInput.UserName))
                 throw new UserFriendlyException("用户名不能为空！");
-
-            if (string.IsNullOrWhiteSpace(userInput.Password))
-                throw new UserFriendlyException("密码不能为空！");
 
             var dbUser = _userRepo.GetUserByUserName(userInput.UserName);
             if (dbUser != null)
@@ -96,9 +91,11 @@ namespace Simple_Asp.Net_Core.Controllers
             var user = _mapper.Map<User>(userInput);
             _userRepo.CreateUser(user);
 
-            return Ok(user);
+            return Ok(SysMsg.Success(user));
         }
 
+        [HttpGet("VerifyUserName/{userName}")]
+        [AllowAnonymous]
         public IActionResult VerifyUserName(string userName)
         {
             if (string.IsNullOrWhiteSpace(userName))
@@ -108,10 +105,11 @@ namespace Simple_Asp.Net_Core.Controllers
             if (dbUser != null)
                 throw new UserFriendlyException("用户名已经存在！");
 
-            return Ok();
+            return Ok(SysMsg.Success("验证成功！"));
         }
 
-        public IActionResult UpdateUser(UserUpdateDto userUpdateDto)
+        [HttpPut("UpdateUser/{id}")]
+        public IActionResult UpdateUser(Guid id, UserUpdateDto userUpdateDto)
         {
             if (string.IsNullOrWhiteSpace(userUpdateDto.UserName))
                 throw new UserFriendlyException("用户名不能为空！");
@@ -119,11 +117,24 @@ namespace Simple_Asp.Net_Core.Controllers
             if (string.IsNullOrWhiteSpace(userUpdateDto.Password))
                 throw new UserFriendlyException("密码不能为空！");
 
-            var dbUser = _userRepo.GetUserById(userUpdateDto.Id);
+            var dbUser = _userRepo.GetUserById(id);
             _mapper.Map(userUpdateDto, dbUser);
             _userRepo.UpdateUser(dbUser);
 
-            return Ok();
+            return Ok(SysMsg.Success("保存成功！"));
+        }
+
+        [HttpPut("UpdatePassword/{id}")]
+        public IActionResult UpdatePassword(Guid id, string password)
+        {
+            if (string.IsNullOrWhiteSpace(password))
+                throw new UserFriendlyException("密码不能为空！");
+
+            var dbUser = _userRepo.GetUserById(id);
+            dbUser.Password = password;
+            _userRepo.UpdateUser(dbUser);
+
+            return Ok(SysMsg.Success("密码修改成功！"));
         }
 
         public enum Role

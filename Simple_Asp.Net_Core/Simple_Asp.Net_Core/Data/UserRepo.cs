@@ -18,8 +18,8 @@ public class UserRepo : IUserRepo
         if(user != null)
             throw new UserFriendlyException("该用户已存在，无法重新新增！");
 
-        user.SetCreateInfo();
-        _context.Users.Add(user);
+        userInput.SetCreateInfo();
+        _context.Users.Add(userInput);
         _context.SaveChanges();
     }
 

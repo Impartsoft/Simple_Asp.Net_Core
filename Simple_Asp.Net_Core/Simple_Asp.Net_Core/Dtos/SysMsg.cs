@@ -14,12 +14,13 @@ namespace Simple_Asp.Net_Core.Dtos
             Value = value;
         }
 
-        [JsonProperty("isSuccess")]
+        [JsonProperty("success")]
         public bool IsSuccess { get; set; }
 
         [JsonProperty("message")]
         public string Message { get; set; }
 
+        [JsonProperty("value")]
         public object Value { get; set; }
     }
 }

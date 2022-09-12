@@ -8,7 +8,7 @@ using Simple_Asp.Net_Core.ServiceProviders;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddJWT();
-
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 builder.Services.Configure<Test2>(builder.Configuration.GetSection("Test2"));
 

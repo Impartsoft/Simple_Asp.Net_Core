@@ -28,5 +28,15 @@
         /// 电子邮箱
         /// </summary>
         public string Mail { get; set; }
+
+        /// <summary>
+        /// 个人简介
+        /// </summary>
+        public string Resume { get; set; }
+
+        /// <summary>
+        /// 照片
+        /// </summary>
+        public string Photo { get; set; }
     }
 }

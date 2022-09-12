@@ -39,7 +39,7 @@ namespace Simple_Asp.Net_Core.ServiceProviders
         private static void SetResponse(HttpContext context)
         {
             context.Response.Clear();
-            context.Response.StatusCode = 400;
+            context.Response.StatusCode = 200;
             context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
             context.Response.Headers.Add("Access-Control-Allow-Methods", "POST,GET");
             context.Response.ContentType = "application/json";

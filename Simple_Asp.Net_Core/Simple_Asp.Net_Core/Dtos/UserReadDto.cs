@@ -13,11 +13,6 @@
         public string NickName { get; set; }
 
         /// <summary>
-        /// 密码
-        /// </summary>
-        public string Password { get; set; }
-
-        /// <summary>
         /// 手机号
         /// </summary>
         public string Phone { get; set; }
@@ -26,5 +21,15 @@
         /// 电子邮箱
         /// </summary>
         public string Mail { get; set; }
+
+        /// <summary>
+        /// 个人简介
+        /// </summary>
+        public string Resume { get; set; }
+
+        /// <summary>
+        /// 照片
+        /// </summary>
+        public string Photo { get; set; }
     }
 }
