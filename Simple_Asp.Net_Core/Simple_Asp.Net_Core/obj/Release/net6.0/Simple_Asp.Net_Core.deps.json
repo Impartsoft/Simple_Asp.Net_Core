@@ -19,6 +19,7 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.16.1",
           "NLog.Web.AspNetCore": "5.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
+          "Simple_Asp.Net_Core.Model": "1.0.0",
           "Swashbuckle.AspNetCore": "6.3.1"
         },
         "runtime": {
@@ -399,7 +400,16 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "System.Security.Cryptography.Cng/4.5.0": {}
+      "System.Security.Cryptography.Cng/4.5.0": {},
+      "Simple_Asp.Net_Core.Model/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5"
+        },
+        "runtime": {
+          "Simple_Asp.Net_Core.Model.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -736,6 +746,11 @@
       "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
+    "Simple_Asp.Net_Core.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

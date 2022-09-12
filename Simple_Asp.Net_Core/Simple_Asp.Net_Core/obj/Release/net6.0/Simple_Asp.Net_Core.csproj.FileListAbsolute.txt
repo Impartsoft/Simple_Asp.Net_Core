@@ -52,3 +52,5 @@ D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\NLog.Extensions.Logging.dll
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\NLog.Web.AspNetCore.dll
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\libman.json
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\Simple_Asp.Net_Core.Model.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\bin\Release\net6.0\Simple_Asp.Net_Core.Model.pdb

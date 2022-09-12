@@ -33,4 +33,6 @@ D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\System.IdentityModel.Tokens.Jwt.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Simple_Asp.Net_Core.Model.dll
+D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Simple_Asp.Net_Core.Model.pdb
 D:\workspace\github\Simple_Asp.Net_Core\Simple_Asp.Net_Core\Simple_Asp.Net_Core\obj\Docker\publish\Simple_Asp.Net_Core.deps.json
