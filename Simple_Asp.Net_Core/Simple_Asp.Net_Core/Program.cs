@@ -1,11 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Serialization;
-using Simple_Asp.Net_Core.Data;
-using Simple_Asp.Net_Core.ServiceProviders;
-using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 using NLog.Web;
+using Simple_Asp.Net_Core.Data;
 using Simple_Asp.Net_Core.Model.DBContext;
+using Simple_Asp.Net_Core.ServiceProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
@@ -23,8 +21,9 @@ builder.Host.UseNLog();
 //            options.UseNpgsql(@"Server=(localdb)\mssqllocaldb;Database=Test"));
 
 builder.Services.AddDbContext<CommanderContext>(options =>
-    //options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
-    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql"),x=>x.MigrationsAssembly("Simple_Asp.Net_Core")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql"), 
+    x => x.MigrationsAssembly("Simple_Asp.Net_Core")));
+
 //builder.Services.AddDbContext<FTPFileContext>(options =>
 //    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgereSql")));
 //builder.Services.AddDbContext<GoodsContext>(options =>
@@ -40,9 +39,10 @@ builder.Services.AddSwagger();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddTransient<ICommanderRepo, SqlCommanderRepo>();
-builder.Services.AddTransient<IFTPFileRepo, FTPFileRepo>();
-builder.Services.AddTransient<IGoodsRepo, GoodsRepo>();
+builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+builder.Services.AddScoped<IFTPFileRepo, FTPFileRepo>();
+builder.Services.AddScoped<IGoodsRepo, GoodsRepo>();
+builder.Services.AddScoped<IUserRepo, UserRepo>();
 
 builder.Services.AddControllers().AddNewtonsoftJson(s =>
 {

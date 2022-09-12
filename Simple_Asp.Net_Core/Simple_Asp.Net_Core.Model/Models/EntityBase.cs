@@ -1,8 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Simple_Asp.Net_Core.Models
+﻿namespace Simple_Asp.Net_Core.Models
 {
     public class EntityBase
     {
@@ -26,7 +22,7 @@ namespace Simple_Asp.Net_Core.Models
 
     public enum DeleteTag
     {
-        None=0,
+        None = 0,
         NotDeleted = 1,
         Deleted = 2,
     }

@@ -10,7 +10,7 @@ namespace Simple_Asp.Net_Core.Extensions
     {
         private const string USER = "User";
 
-        public static ClaimsIdentity GetClaimsIdentity(this UserProviderDto user)
+        public static ClaimsIdentity GetClaimsIdentity(this UserReadDto user)
         {
             return new ClaimsIdentity(new Claim[]
             {
@@ -18,9 +18,9 @@ namespace Simple_Asp.Net_Core.Extensions
             });
         }
 
-        public static UserProviderDto GetLoginUser(this IEnumerable<Claim> claims)
+        public static UserReadDto GetLoginUser(this IEnumerable<Claim> claims)
         {
-            var user = JsonConvert.DeserializeObject<UserProviderDto>(claims.Get(USER));
+            var user = JsonConvert.DeserializeObject<UserReadDto>(claims.Get(USER));
 
             return user;
         }
