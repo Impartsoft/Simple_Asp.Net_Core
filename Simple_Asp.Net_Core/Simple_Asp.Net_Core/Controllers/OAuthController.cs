@@ -108,16 +108,10 @@ namespace Simple_Asp.Net_Core.Controllers
             return Ok(SysMsg.Success("验证成功！"));
         }
 
-        [HttpPut("UpdateUser/{id}")]
-        public IActionResult UpdateUser(Guid id, UserUpdateDto userUpdateDto)
+        [HttpPut("UpdateUser")]
+        public IActionResult UpdateUser(UserUpdateDto userUpdateDto)
         {
-            if (string.IsNullOrWhiteSpace(userUpdateDto.UserName))
-                throw new UserFriendlyException("用户名不能为空！");
-
-            if (string.IsNullOrWhiteSpace(userUpdateDto.Password))
-                throw new UserFriendlyException("密码不能为空！");
-
-            var dbUser = _userRepo.GetUserById(id);
+            var dbUser = _userRepo.GetUserById(userUpdateDto.Id);
             _mapper.Map(userUpdateDto, dbUser);
             _userRepo.UpdateUser(dbUser);
 
@@ -125,12 +119,16 @@ namespace Simple_Asp.Net_Core.Controllers
         }
 
         [HttpPut("UpdatePassword/{id}")]
-        public IActionResult UpdatePassword(Guid id, string password)
+        public IActionResult UpdatePassword(Guid id, string oldPassword, string password)
         {
             if (string.IsNullOrWhiteSpace(password))
                 throw new UserFriendlyException("密码不能为空！");
 
             var dbUser = _userRepo.GetUserById(id);
+
+            if (dbUser.Password != oldPassword)
+                throw new UserFriendlyException("原密码错误不能为空！");
+
             dbUser.Password = password;
             _userRepo.UpdateUser(dbUser);
 
