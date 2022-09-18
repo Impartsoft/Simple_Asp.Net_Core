@@ -22,6 +22,88 @@ namespace Simple_Asp.Net_Core.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Blog", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(2147483647)
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<int>("DeleteTag")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Deleter")
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<DateTime>("InputDate")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("Inputter")
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<string>("Modifier")
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<DateTime>("ModifyDate")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("tbBlog", (string)null);
+                });
+
+            modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Comment", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("BlogId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("tbComment", (string)null);
+                });
+
             modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -207,6 +289,35 @@ namespace Simple_Asp.Net_Core.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("tbGood", (string)null);
+                });
+
+            modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Blog", b =>
+                {
+                    b.HasOne("Simple_Asp.Net_Core.Model.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Comment", b =>
+                {
+                    b.HasOne("Simple_Asp.Net_Core.Model.Models.Blog", null)
+                        .WithMany("Comments")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Simple_Asp.Net_Core.Model.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Blog", b =>
+                {
+                    b.Navigation("Comments");
                 });
 #pragma warning restore 612, 618
         }

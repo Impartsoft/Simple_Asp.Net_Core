@@ -8,8 +8,6 @@ namespace Simple_Asp.Net_Core.Model.Models
 
         public string Content { get; set; }
 
-        public User User { get; set; }
-
         public Guid UserId { get; set; }
 
         public IList<Comment> Comments { get; set; }

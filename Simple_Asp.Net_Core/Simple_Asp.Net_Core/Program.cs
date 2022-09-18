@@ -43,6 +43,7 @@ builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 builder.Services.AddScoped<IFTPFileRepo, FTPFileRepo>();
 builder.Services.AddScoped<IGoodsRepo, GoodsRepo>();
 builder.Services.AddScoped<IUserRepo, UserRepo>();
+builder.Services.AddScoped<IBlogRepo, BlogRepo>();
 
 builder.Services.AddControllers().AddNewtonsoftJson(s =>
 {

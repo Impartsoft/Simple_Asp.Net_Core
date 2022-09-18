@@ -18,7 +18,6 @@ namespace Simple_Asp.Net_Core.Model.TableConfig
             builder.Property(v => v.Type).HasMaxLength(100).IsRequired();
             builder.Property(v => v.MainImageId).HasMaxLength(500).IsRequired();
             builder.Property(v => v.DBImageIds).HasMaxLength(2000).IsRequired();
-
         }
 
     }

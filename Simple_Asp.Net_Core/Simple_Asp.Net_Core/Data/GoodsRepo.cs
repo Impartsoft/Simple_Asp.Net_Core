@@ -18,23 +18,23 @@ public class GoodsRepo : IGoodsRepo
         _context = context;
     }
 
-    public void CreateGoods(Goods ftpFile)
+    public void CreateGoods(Goods user)
     {
-        if (ftpFile == null)
+        if (user == null)
         {
-            throw new ArgumentNullException(nameof(ftpFile));
+            throw new ArgumentNullException(nameof(user));
         }
 
-        _context.Goods.Add(ftpFile);
+        _context.Goods.Add(user);
     }
 
-    public void DeleteGoods(Goods ftpFile)
+    public void DeleteGoods(Goods user)
     {
-        if (ftpFile == null)
+        if (user == null)
         {
-            throw new ArgumentNullException(nameof(ftpFile));
+            throw new ArgumentNullException(nameof(user));
         }
-        _context.Goods.Remove(ftpFile);
+        _context.Goods.Remove(user);
     }
 
     public IEnumerable<Goods> GetAllGoods()

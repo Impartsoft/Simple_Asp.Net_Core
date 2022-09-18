@@ -10,11 +10,7 @@
 
         public DateTime UpdateTime { get; set; }
 
-        public User User { get; set; }
-
-        public string UserId { get; set; }
-
-        public Blog Blog { get; set; }
+        public Guid UserId { get; set; }
 
         public Guid BlogId { get; set; }
     }
