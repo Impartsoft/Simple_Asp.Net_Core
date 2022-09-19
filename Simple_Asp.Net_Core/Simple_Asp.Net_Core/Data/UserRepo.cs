@@ -26,6 +26,7 @@ public class UserRepo : IUserRepo
     public void DeleteUser(User user)
     {
         //_context.Users.Update(user);
+        _context.SaveChanges();
     }
 
     public IEnumerable<User> GetAllUsers()
@@ -59,6 +60,7 @@ public class UserRepo : IUserRepo
 
     public void UpdateUser(User user)
     {
-        _context.Users.Add(user);
+        _context.Users.Update(user);
+        _context.SaveChanges();
     }
 }

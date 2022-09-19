@@ -55,7 +55,7 @@ public class BlogRepo : IBlogRepo
 
         _context.Comments.Add(comment);
     }
-     
+
     public void DeleteBlog(Blog blog)
     {
         if (blog == null)
@@ -67,12 +67,17 @@ public class BlogRepo : IBlogRepo
 
     public IEnumerable<Blog> GetAllBlog()
     {
-        return _context.Blogs.Include(v=>v.Comments).ToList();
+        return _context.Blogs.Include(v => v.Comments).ToList();
+    }
+
+    public IEnumerable<Blog> GetBlogsByUserId(Guid userId)
+    {
+        return _context.Blogs.Where(v => v.UserId == userId).Include(v => v.Comments).ToList();
     }
 
     public Blog GetBlogById(Guid id)
     {
-        return _context.Blogs.FirstOrDefault(p => p.Id == id);
+        return _context.Blogs.Include(v => v.Comments).FirstOrDefault(p => p.Id == id);
     }
 
 

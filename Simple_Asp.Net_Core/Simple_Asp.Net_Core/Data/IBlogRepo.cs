@@ -7,6 +7,7 @@ namespace Simple_Asp.Net_Core.Data
         bool SaveChanges();
 
         IEnumerable<Blog> GetAllBlog();
+        IEnumerable<Blog> GetBlogsByUserId(Guid userId);
         Blog GetBlogById(Guid id);
         void CreateBlog(Blog goods, Guid guid);
         void UpdateBlog(Blog goods);

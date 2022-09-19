@@ -127,7 +127,7 @@ namespace Simple_Asp.Net_Core.Controllers
             var dbUser = _userRepo.GetUserById(id);
 
             if (dbUser.Password != oldPassword)
-                throw new UserFriendlyException("原密码错误不能为空！");
+                throw new UserFriendlyException("原密码错误！");
 
             dbUser.Password = password;
             _userRepo.UpdateUser(dbUser);

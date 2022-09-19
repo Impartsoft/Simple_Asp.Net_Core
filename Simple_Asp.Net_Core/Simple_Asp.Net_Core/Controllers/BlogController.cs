@@ -29,6 +29,14 @@ namespace Simple_Asp.Net_Core.Controllers
             var blogItems = _repository.GetAllBlog();
 
             return SysMsg.Success(_mapper.Map<IEnumerable<BlogReadDto>>(blogItems));
+        }       
+        
+        [HttpGet("GetUserBlogs")]
+        public ActionResult<SysMsg> GetUserBlogs()
+        {
+            var blogItems = _repository.GetBlogsByUserId(User.GetCurrentUserId());
+
+            return SysMsg.Success(_mapper.Map<IEnumerable<BlogReadDto>>(blogItems));
         }
 
         //GET api/blogs/{id}
