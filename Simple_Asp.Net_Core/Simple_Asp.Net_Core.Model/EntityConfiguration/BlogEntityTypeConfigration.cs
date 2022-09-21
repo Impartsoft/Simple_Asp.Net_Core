@@ -16,8 +16,9 @@ namespace Simple_Asp.Net_Core.Model.EntityConfiguration
 
             builder.HasMany(v => v.Comments).WithOne().HasForeignKey(v=>v.BlogId);
 
-            // 没有关联属性，直接使用泛型进行匹配
-            builder.HasOne<User>().WithMany().HasForeignKey(v => v.UserId);
+            //// 没有关联属性，直接使用泛型进行匹配
+            //builder.HasOne<User>().WithMany().HasForeignKey(v => v.UserId);
+            builder.HasOne(v=>v.User).WithMany().HasForeignKey(v => v.UserId);
         }
     }
 }

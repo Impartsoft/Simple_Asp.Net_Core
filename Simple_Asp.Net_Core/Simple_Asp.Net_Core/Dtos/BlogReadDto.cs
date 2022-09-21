@@ -10,6 +10,8 @@
 
         public Guid UserId { get; set; }
 
+        public UserReadDto User { get; set; }
+
         public IList<CommentReadDto> Comments { get; set; }
     }
 }

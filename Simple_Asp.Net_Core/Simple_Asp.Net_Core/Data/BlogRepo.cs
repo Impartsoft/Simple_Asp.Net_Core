@@ -77,7 +77,7 @@ public class BlogRepo : IBlogRepo
 
     public Blog GetBlogById(Guid id)
     {
-        return _context.Blogs.Include(v => v.Comments).FirstOrDefault(p => p.Id == id);
+        return _context.Blogs.Include(v => v.User).Include(v => v.Comments).ThenInclude(v=>v.User).FirstOrDefault(p => p.Id == id);
     }
 
 
