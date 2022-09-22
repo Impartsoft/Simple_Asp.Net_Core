@@ -80,6 +80,10 @@ public class BlogRepo : IBlogRepo
         return _context.Blogs.Include(v => v.User).Include(v => v.Comments).ThenInclude(v=>v.User).FirstOrDefault(p => p.Id == id);
     }
 
+    public IEnumerable<Comment> GetCommentByBlogId(Guid id)
+    {
+        return _context.Comments.Include(v => v.User).Where(p => p.BlogId == id);
+    }
 
     public bool SaveChanges()
     {

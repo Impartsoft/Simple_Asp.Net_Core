@@ -1,5 +1,4 @@
-﻿using Simple_Asp.Net_Core.Controllers;
-using Simple_Asp.Net_Core.Models;
+﻿using Simple_Asp.Net_Core.Models;
 using System.Collections.Generic;
 
 namespace Simple_Asp.Net_Core.Data

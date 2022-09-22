@@ -13,5 +13,6 @@ namespace Simple_Asp.Net_Core.Data
         void UpdateBlog(Blog goods);
         void DeleteBlog(Blog goods);
         void CreateComment(Comment blogModel, Guid userId);
+        IEnumerable<Comment> GetCommentByBlogId(Guid id);
     }
 }

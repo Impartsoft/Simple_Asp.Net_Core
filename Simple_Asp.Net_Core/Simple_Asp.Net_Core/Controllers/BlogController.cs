@@ -51,6 +51,18 @@ namespace Simple_Asp.Net_Core.Controllers
             return SysMsg.Fail("未找到该产品！");
         }
 
+        //GET api/blogs/{id}
+        [HttpGet("GetCommentByBlogId")]
+        public ActionResult<SysMsg> GetCommentByBlogId(Guid id)
+        {
+            var comments = _repository.GetCommentByBlogId(id);
+            if (comments != null)
+            {
+                return SysMsg.Success(_mapper.Map<IEnumerable<CommentReadDto>>(comments));
+            }
+            return SysMsg.Fail("未找到该产品！");
+        }
+
         //POST api/blogs
         [HttpPost("CreateBlog")]
         public ActionResult<SysMsg> CreateBlog(BlogCreateDto blogCreateDto)
