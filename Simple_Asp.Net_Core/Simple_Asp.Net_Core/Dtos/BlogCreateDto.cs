@@ -5,5 +5,7 @@
         public string Title { get; set; }
 
         public string Content { get; set; }
+
+        public IList<BlogLabelCreateDto> BlogLabels { get; set; }
     }
 }

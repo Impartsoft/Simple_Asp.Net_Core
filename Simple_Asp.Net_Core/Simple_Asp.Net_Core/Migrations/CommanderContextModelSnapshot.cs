@@ -72,6 +72,27 @@ namespace Simple_Asp.Net_Core.Migrations
                     b.ToTable("tbBlog", (string)null);
                 });
 
+            modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.BlogLabel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("BlogId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Label")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.ToTable("tbBlogLabel", (string)null);
+                });
+
             modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Comment", b =>
                 {
                     b.Property<Guid>("Id")
@@ -293,9 +314,20 @@ namespace Simple_Asp.Net_Core.Migrations
 
             modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Blog", b =>
                 {
-                    b.HasOne("Simple_Asp.Net_Core.Model.Models.User", null)
+                    b.HasOne("Simple_Asp.Net_Core.Model.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.BlogLabel", b =>
+                {
+                    b.HasOne("Simple_Asp.Net_Core.Model.Models.Blog", null)
+                        .WithMany("BlogLabels")
+                        .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -308,15 +340,19 @@ namespace Simple_Asp.Net_Core.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Simple_Asp.Net_Core.Model.Models.User", null)
+                    b.HasOne("Simple_Asp.Net_Core.Model.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Simple_Asp.Net_Core.Model.Models.Blog", b =>
                 {
+                    b.Navigation("BlogLabels");
+
                     b.Navigation("Comments");
                 });
 #pragma warning restore 612, 618

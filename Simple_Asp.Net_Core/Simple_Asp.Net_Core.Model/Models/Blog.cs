@@ -9,6 +9,7 @@ namespace Simple_Asp.Net_Core.Model.Models
         public string Content { get; set; }
 
         public IList<Comment> Comments { get; set; }
+        public IList<BlogLabel> BlogLabels { get; set; }
         public User User { get;  set; }
         public Guid UserId { get; set; }
     }

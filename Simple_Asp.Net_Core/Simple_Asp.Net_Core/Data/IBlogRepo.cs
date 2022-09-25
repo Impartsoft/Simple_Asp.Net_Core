@@ -14,5 +14,8 @@ namespace Simple_Asp.Net_Core.Data
         void DeleteBlog(Blog goods);
         void CreateComment(Comment blogModel, Guid userId);
         IEnumerable<Comment> GetCommentByBlogId(Guid id);
+        IEnumerable<string> GetUserBlogLabels(Guid userId);
+        IEnumerable<Blog> GetBlogByKey(string key);
+        IEnumerable<Blog> GetBlogByLabel(string label);
     }
 }

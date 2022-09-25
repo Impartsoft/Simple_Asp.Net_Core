@@ -12,8 +12,9 @@
 
         public UserReadDto User { get; set; }
 
-        public IList<CommentReadDto> Comments { get; set; }
-
         public DateTime InputDate { get; set; }
+
+        public IList<CommentReadDto> Comments { get; set; }
+        public IList<BlogLabelReadDto> BlogLabels { get; set; }
     }
 }

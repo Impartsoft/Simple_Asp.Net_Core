@@ -29,12 +29,12 @@ namespace Simple_Asp.Net_Core.Controllers
             var blogItems = _repository.GetAllBlog();
 
             return SysMsg.Success(_mapper.Map<IEnumerable<BlogReadDto>>(blogItems));
-        }       
-        
+        }
+
         [HttpGet("GetUserBlogs")]
-        public ActionResult<SysMsg> GetUserBlogs()
+        public ActionResult<SysMsg> GetUserBlogs(Guid userId)
         {
-            var blogItems = _repository.GetBlogsByUserId(User.GetCurrentUserId());
+            var blogItems = _repository.GetBlogsByUserId(userId);
 
             return SysMsg.Success(_mapper.Map<IEnumerable<BlogReadDto>>(blogItems));
         }
@@ -49,6 +49,45 @@ namespace Simple_Asp.Net_Core.Controllers
                 return SysMsg.Success(_mapper.Map<BlogReadDto>(blogItem));
             }
             return SysMsg.Fail("未找到该产品！");
+        }
+
+        [HttpGet("GetUserBlogLabels")]
+        public ActionResult<SysMsg> GetUserBlogLabels(Guid userId)
+        {
+            var blogItem = _repository.GetUserBlogLabels(userId);
+            if (blogItem != null)
+            {
+                return SysMsg.Success(blogItem);
+            }
+            return SysMsg.Fail("未找用户博客的标签列表！");
+        }
+
+        /// <summary>
+        /// 根据关键词查找博客列表
+        /// </summary>
+        [HttpGet("GetBlogByKey")]
+        public ActionResult<SysMsg> GetBlogByKey(string key)
+        {
+            var blogItem = _repository.GetBlogByKey(key);
+            if (blogItem != null)
+            {
+                return SysMsg.Success(_mapper.Map<IEnumerable<BlogReadDto>>(blogItem));
+            }
+            return SysMsg.Fail("未找到产品！");
+        }
+
+        /// <summary>
+        /// 根据标签查找博客列表
+        /// </summary>
+        [HttpGet("GetBlogByLabel")]
+        public ActionResult<SysMsg> GetBlogByLabel(string label)
+        {
+            var blogItem = _repository.GetBlogByLabel(label);
+            if (blogItem != null)
+            {
+                return SysMsg.Success(_mapper.Map<IEnumerable<BlogReadDto>>(blogItem));
+            }
+            return SysMsg.Fail("未找到产品！");
         }
 
         //GET api/blogs/{id}
@@ -73,6 +112,17 @@ namespace Simple_Asp.Net_Core.Controllers
 
             return SysMsg.Success("新增成功！", _mapper.Map<BlogReadDto>(blogModel));
         }
+
+        ////POST api/blogs
+        //[HttpPost("CreateBlog")]
+        //public ActionResult<SysMsg> CreateBlog(BlogCreateDto blogCreateDto)
+        //{
+        //    var blogModel = _mapper.Map<Blog>(blogCreateDto);
+        //    _repository.CreateBlog(blogModel, User.GetCurrentUserId());
+        //    _repository.SaveChanges();
+
+        //    return SysMsg.Success("新增成功！", _mapper.Map<BlogReadDto>(blogModel));
+        //}
 
         //POST api/CreateComment
         [HttpPost("CreateComment")]
