@@ -35,6 +35,13 @@ namespace Simple_Asp.Net_Core.Controllers
             _userRepo = userRepo;
         }
 
+        [HttpGet("Authorize")]
+        [Authorize]
+        public IActionResult Authorize()
+        {
+            return Ok();
+        }
+
         [HttpPost("Authenticate")]
         [AllowAnonymous]
         public IActionResult Authenticate(string name, string password)
@@ -65,7 +72,7 @@ namespace Simple_Asp.Net_Core.Controllers
 
             return Ok(SysMsg.Success("登入成功！", new { access_token = tokenString, user = user }));
         }
-
+         
         /// <summary>
         /// 验证用户信息
         /// </summary>
