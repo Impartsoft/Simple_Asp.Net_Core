@@ -1,6 +1,8 @@
+using AutoMapper;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Moq;
 using Simple_Asp.Net_Core.Controllers;
 using Simple_Asp.Net_Core.Data;
 using Simple_Asp.Net_Core.Models;
@@ -12,7 +14,9 @@ public class TestUserController
     [Fact]
     public async Task Get_OnSuccess_ReturnsStatusCode200()
     {
-        var sut = new UserController();
+        var user = new Mock<IUserRepo>();
+        var map = new Mock<IMapper>();
+        var sut = new UserController(user.Object, map.Object);
 
         var result = (OkObjectResult)await sut.Get();
 
