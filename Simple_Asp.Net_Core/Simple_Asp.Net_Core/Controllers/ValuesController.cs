@@ -20,7 +20,7 @@ namespace Simple_Asp.Net_Core.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "1023";
         }
 
         // POST api/<ValuesController1>

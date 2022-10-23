@@ -581,3 +581,7 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,visualstudio
+Simple_Asp.Net_Core/.vs/Simple_Asp.Net_Core/v17/.suo
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.Tests/obj/project.assets.json
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.Tests/obj/project.nuget.cache
+Simple_Asp.Net_Core/Simple_Asp.Net_Core.Tests/obj/Simple_Asp.Net_Core.Tests.csproj.nuget.dgspec.json

@@ -81,27 +81,27 @@ public class BlogRepo : IBlogRepo
 
     public IEnumerable<Blog> GetAllBlog()
     {
-        return _context.Blogs.Include(v => v.Comments).ToList();
+        return _context.Blogs.Include(v => v.Comments).Include(v => v.BlogLabels).ToList();
     }
 
     public IEnumerable<Blog> GetBlogsByUserId(Guid userId)
     {
-        return _context.Blogs.Where(v => v.UserId == userId).Include(v => v.Comments).ToList();
+        return _context.Blogs.Where(v => v.UserId == userId).Include(v => v.Comments).Include(v => v.BlogLabels).ToList();
     }
 
     public IEnumerable<Blog> GetBlogByKey(string key)
     {
-        return _context.Blogs.Where(v => v.Title.Contains(key));
+        return _context.Blogs.Where(v => v.Title.Contains(key)).Include(v => v.BlogLabels);
     }
 
     public IEnumerable<Blog> GetBlogByLabel(string label)
     {
-        return _context.Blogs.Where(v => v.BlogLabels != null && v.BlogLabels.Any(b => b.Label.Equals(label)));
+        return _context.Blogs.Where(v => v.BlogLabels != null && v.BlogLabels.Any(b => b.Label.Equals(label))).Include(v => v.BlogLabels);
     }
 
     public IEnumerable<string> GetUserBlogLabels(Guid userId)
     {
-       var blogs = _context.Blogs.Where(v => v.UserId == userId).Include(v => v.BlogLabels);
+        var blogs = _context.Blogs.Where(v => v.UserId == userId).Include(v => v.BlogLabels);
         foreach (var blog in blogs)
         {
             foreach (var blogLabel in blog.BlogLabels)
